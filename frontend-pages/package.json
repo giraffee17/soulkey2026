@@ -1,0 +1,9 @@
+{
+  "name": "@soulkey/pages",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev public --ip 127.0.0.1 --port 8788 --inspector-port 9230",
+    "deploy": "wrangler pages deploy public --project-name soulkey"
+  }
+}

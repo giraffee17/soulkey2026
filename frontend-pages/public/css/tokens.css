@@ -1,0 +1,58 @@
+/* The only file allowed to hold raw color values (checked by npm run check).
+   Everything else uses these tokens by their role. */
+:root {
+  /* Palette (PLAN.md, Visual style) */
+  --color-stage: #0b0907;
+  --color-panel: #17110d;
+  --color-parchment: #e8dcc0;
+  --color-parchment-muted: #cdbf9f;
+  --color-gold: #c9a54c;
+  --color-wood: #7a3e1b;
+  --color-velvet: #5c1420;
+
+  /* Scene materials for the stand-in violin, read by js/scene/palette.js */
+  --scene-wood: var(--color-wood);
+  --scene-maple: #a8662e;
+  --scene-ebony: #15100c;
+  --scene-metal: #b9b2a3;
+  --scene-string: #d8c9a3;
+  --scene-hair: #efe6d2;
+  --scene-ivory: #e9dfc8;
+  --scene-highlight: var(--color-gold);
+
+  /* Semantic roles */
+  --page: var(--color-stage);
+  --surface: var(--color-panel);
+  --text: var(--color-parchment);
+  --text-muted: var(--color-parchment-muted);
+  --text-faint: #8c7b60;
+  --accent: var(--color-gold);
+  --accent-strong: var(--color-velvet);
+  --hairline: #3a2c1e;
+  --focus-ring: var(--color-gold);
+
+  /* Type */
+  --font-title: "Great Vibes", "Times New Roman", serif;
+  --font-body: Arial, Helvetica, sans-serif;
+  --size-small: 0.8125rem;
+  --size-body: 1rem;
+  --size-title: 2.75rem;
+  --size-title-plain: 1.5rem;
+
+  /* Space and shape */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --radius: 0.5rem;
+  --header-height: 3.75rem;
+  --sheet-peek: 3.5rem;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 320ms;
+
+  color-scheme: dark;
+}
