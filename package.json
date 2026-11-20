@@ -1,0 +1,28 @@
+{
+  "name": "soulkey-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "workspaces": [
+    "frontend-pages",
+    "api-worker"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/vendor.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "dev": "node scripts/dev-all.mjs",
+    "dev:pages": "npm run dev --workspace @soulkey/pages",
+    "dev:api": "npm run dev --workspace @soulkey/api",
+    "check": "node scripts/check.mjs",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "deploy:pages": "npm run deploy --workspace @soulkey/pages",
+    "deploy:api": "npm run deploy --workspace @soulkey/api"
+  },
+  "devDependencies": {
+    "three": "0.187.0",
+    "wrangler": "4.165.0"
+  }
+}

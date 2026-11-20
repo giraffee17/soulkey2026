@@ -167,14 +167,16 @@ Evidence for the report: frame gaps during the intro, memory after opening and c
 ## Rules for scheduled Claude runs
 
 1. Read this plan first. If a change goes against it, stop and write the question in the pull request instead of guessing.
-2. One problem per run, one small change, then check it.
+2. One focus per run: one schedule item, or one bug, finished and checked. Don't mix unrelated changes.
 3. Change only what the task needs. Don't add features, labels or content beyond the plan, and don't remove anything else.
 4. Keep the folder structure, part ids and tokens exactly as written here.
 5. Clean, reusable code: small modules, one reason to change per file.
 6. Run `npm run check` and `npm test` before finishing.
 7. Add an entry to `CHANGELOG-AI.md`: date, branch, what changed, why, which files.
 8. Never commit secrets.
-9. Every run works on its own branch `claude/daily-YYYY-MM-DD` and opens a pull request into `main`. Never push to `main`.
+9. Every run works on its own branch `claude/daily-YYYY-MM-DD` and opens a pull request into `main`. Never push to `main`, never merge, never force push.
+10. If 3 or more Claude pull requests are still open, start nothing new: fix problems on those branches, then stop.
+11. Leave decisions that belong to Maralgua (Mongolian violin terms, buying the model, deploying, the deadline) as questions in the pull request.
 
 ## Open decisions
 

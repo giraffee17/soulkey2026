@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soul Key · Соль түлхүүр</title>
+    <meta name="description" content="An interactive 3D violin for beginners, in English and Mongolian." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three/three.module.js",
+          "three/addons/": "./vendor/three/addons/"
+        }
+      }
+    </script>
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="site-header__brand" lang="en">Soul Key</p>
+      <div class="site-header__controls">
+        <sk-mode-tabs mode="explore" available="explore"></sk-mode-tabs>
+        <sk-lang-switch></sk-lang-switch>
+      </div>
+    </header>
+    <main class="layout">
+      <div class="layout__stage">
+        <sk-stage></sk-stage>
+      </div>
+      <aside class="layout__panel" data-open="false">
+        <button class="sheet-handle" type="button" aria-expanded="false">Show parts</button>
+        <sk-panel></sk-panel>
+        <sk-parts-list></sk-parts-list>
+      </aside>
+    </main>
+  </body>
+</html>
