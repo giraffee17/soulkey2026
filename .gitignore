@@ -1,0 +1,8 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+frontend-pages/public/vendor/
+echo-rs/target/
+.DS_Store
+*.log
