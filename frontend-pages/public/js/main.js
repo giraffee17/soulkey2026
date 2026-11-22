@@ -8,6 +8,7 @@ import "./components/sk-lang-switch.js";
 import { effect } from "./framework/signal.js";
 import { store } from "./framework/store.js";
 import { startRouter } from "./framework/router.js";
+import { keepPanelTopInView } from "./panel-scroll.js";
 import { t } from "./data/strings.js";
 
 const stage = document.querySelector("sk-stage");
@@ -54,5 +55,8 @@ effect(() => {
   [stage, panel, partsList, modeTabs, langSwitch].forEach((element) => element.setAttribute("lang", lang));
   setOpen(sheet.dataset.open === "true");
 });
+
+// A newly chosen part's info is shown from the top, even if the panel was scrolled down.
+keepPanelTopInView({ box: document.querySelector(".layout__panel"), selected: store.selectedPart });
 
 startRouter(store);
