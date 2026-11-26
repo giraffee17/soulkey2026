@@ -1,11 +1,15 @@
 // Starts the API Worker (port 8787) and the Pages site (port 8788) together.
 // Ctrl+C stops both. Same idea as the BrewFlow launcher from the Week 9 lecture.
+// The local D1 database is created and filled first, so the API has part texts to serve.
 import { spawn } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { prepareLocalDb } from "./db-local.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const wrangler = join(root, "node_modules", "wrangler", "bin", "wrangler.js");
+
+await prepareLocalDb();
 
 const jobs = [
   // Each server gets its own debugger (inspector) port, or the second one fails to start.

@@ -17,6 +17,19 @@ Then open http://127.0.0.1:8788. The API runs at http://127.0.0.1:8787 (try `/ap
 
 `npm install` also copies Three.js into `frontend-pages/public/vendor/three/` (the import map loads it from there, so there is no bundler).
 
+## Database (D1)
+
+The panel's part texts live in a D1 database. Their source of truth is `api-worker/seed/part-texts.json` (English and Mongolian, with sources); the tables are in `api-worker/migrations/`.
+
+`npm run dev` creates and fills a local copy every time it starts. After editing the JSON, run `npm run db:local` (or restart `npm run dev`) to load the change.
+
+For the real Cloudflare database, after it is created (`npx wrangler d1 create soulkey-db`, then put its `database_id` in `api-worker/wrangler.jsonc`):
+
+```
+npm run db:migrate:remote
+npm run db:seed:remote
+```
+
 ## Check before every commit
 
 ```
@@ -34,9 +47,10 @@ npm test
 | `frontend-pages/public/js/components/` | `sk-*` Web Components |
 | `frontend-pages/public/js/framework/` | Signals, store, hash router |
 | `frontend-pages/public/js/scene/` | Three.js scene and the stand-in violin |
-| `frontend-pages/public/js/data/` | Part ids and interface text (EN and MN) |
-| `api-worker/` | The Worker API (D1, R2, KV and Durable Object bindings arrive in later weeks) |
-| `scripts/` | Dev launcher, Three.js vendoring, structure checks |
+| `frontend-pages/public/js/data/` | Part ids, interface text (EN and MN) and the part texts loader |
+| `api-worker/` | The Worker API: D1 part texts now; R2, KV and Durable Object bindings arrive in later weeks |
+| `api-worker/seed/` | Part texts content (EN and MN, with sources), loaded into D1 |
+| `scripts/` | Dev launcher, Three.js vendoring, local database setup and seeding, structure checks |
 | `tests/` | Unit tests (`node --test`) |
 
 ## Deploy (needs a Cloudflare account)
