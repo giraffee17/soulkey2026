@@ -39,6 +39,18 @@ npm test
 | `scripts/` | Dev launcher, Three.js vendoring, structure checks |
 | `tests/` | Unit tests (`node --test`) |
 
+## 3D model
+
+The site loads `frontend-pages/public/models/violin.glb`. The rule for any model: every top-level node is named with a part id from `frontend-pages/public/js/data/parts.js`. Parts drawn on another part's texture point at that part (`PART_HOSTS` in `js/scene/violin-model.js`). If the model fails to load, the stand-in violin appears instead.
+
+The current model is a free 3DS model, converted with:
+
+```
+node scripts/model/convert-free-violin.mjs <folder with VIOLIN_L.3DS and its JPGs>
+```
+
+The source files are not committed. A bought model can replace `violin.glb` as long as its nodes keep the part id names.
+
 ## Deploy (needs a Cloudflare account)
 
 ```

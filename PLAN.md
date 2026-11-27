@@ -178,9 +178,14 @@ Evidence for the report: frame gaps during the intro, memory after opening and c
 10. If 3 or more Claude pull requests are still open, start nothing new: fix problems on those branches, then stop.
 11. Leave decisions that belong to Maralgua (Mongolian violin terms, buying the model, deploying, the deadline) as questions in the pull request.
 
+## Current 3D model
+
+The site uses a free model Maralgua provided (`VIOLIN_L.3DS`), converted to `frontend-pages/public/models/violin.glb` by `scripts/model/convert-free-violin.mjs`. It has every part except the f-holes and purfling (painted on the top, so they highlight the top). Nut, fine tuners, soundpost and bass bar were added as simple shapes. The stand-in violin is the fallback if the model fails to load.
+
 ## Open decisions
 
-* Buy the 3D model, and which one (about $10 or $18)?
+* Source and license of the free violin model (needed before selling or crediting)
+* Buy a better 3D model later?
 * Exact deadline date in December?
 * Written final project rubric? More lectures coming?
 * Tchaikovsky edition for the sheet music texture

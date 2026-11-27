@@ -25,6 +25,10 @@ class SkStage extends HTMLElement {
       reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
       onPick: (id) => this.dispatchEvent(new CustomEvent("sk-part-pick", { bubbles: true, detail: { id } })),
       onHover: (over) => { this.dataset.hover = String(over); },
+      onStatus: (status) => {
+        this.dataset.status = status;
+        this.syncLang();
+      },
     });
 
     this.keys = new AbortController();
@@ -58,7 +62,7 @@ class SkStage extends HTMLElement {
   syncLang() {
     const lang = this.getAttribute("lang") || "en";
     this.setAttribute("aria-label", t(lang, "stageLabel"));
-    this.hint.textContent = t(lang, "hint");
+    this.hint.textContent = t(lang, this.dataset.status === "loading" ? "loading" : "hint");
   }
 }
 
