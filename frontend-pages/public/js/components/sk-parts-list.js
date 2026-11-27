@@ -1,13 +1,24 @@
 // <sk-parts-list selected="bridge" lang="en">
-// In:  selected (part id or empty), lang (en or mn)
+// In:  selected (part id or empty), lang (en or mn), and the .catalog property (from the API)
 // Out: "sk-part-pick" event with detail.id
 // The list makes tiny and hidden parts (like the soundpost) easy to find, and
 // gives keyboard users the same path as clicking the 3D model (Week 1: recognition over recall).
-import { GROUPS, PARTS, localName } from "../data/parts.js";
+import { localName } from "../data/catalog.js";
 import { t } from "../data/strings.js";
 
 class SkPartsList extends HTMLElement {
   static observedAttributes = ["selected", "lang"];
+
+  #catalog = null;
+
+  set catalog(value) {
+    this.#catalog = value;
+    if (this.isConnected) this.render();
+  }
+
+  get catalog() {
+    return this.#catalog;
+  }
 
   connectedCallback() {
     this.classList.add("parts-list");
@@ -38,14 +49,15 @@ class SkPartsList extends HTMLElement {
     heading.className = "visually-hidden";
     heading.textContent = t(lang, "partsHeading");
 
-    const sections = GROUPS.map((group) => {
+    const { groups = [], parts = [] } = this.#catalog ?? {};
+    const sections = groups.map((group) => {
       const section = document.createElement("section");
       const title = document.createElement("h3");
       title.className = "parts-list__heading";
       title.textContent = localName(group, lang);
       const list = document.createElement("ul");
       list.className = "parts-list__items";
-      PARTS.filter((part) => part.group === group.id).forEach((part) => {
+      parts.filter((part) => part.group === group.id).forEach((part) => {
         const item = document.createElement("li");
         const button = document.createElement("button");
         button.type = "button";

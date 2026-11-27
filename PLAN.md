@@ -86,7 +86,9 @@ Elegant info table: no boxes or grid lines; small gold labels in spaced capitals
 
 ## Part content
 
-One id per part, shared by the 3D model, the database and the URL (`#/part/bridge`).
+One id per part, shared by the 3D model, the server data and the URL (`#/part/bridge`).
+
+All part data (names, groups, info table text, sources) lives on the server in `api-worker/content/parts.json` and reaches the site as JSON from `GET /api/parts`. Nothing about the parts is hard-coded in the frontend. Later the same file seeds D1.
 
 | Group | Parts (id) |
 | --- | --- |

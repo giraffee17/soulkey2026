@@ -142,7 +142,7 @@ export class StageScene {
 
   // Selection: gold glow on the chosen part, see-through top for inside parts, camera flight.
   select(partId, { isInside = false } = {}) {
-    if (partId === this.selected) return;
+    if (partId === this.selected && isInside === this.selectedInside) return;
     this.selected = partId;
     this.selectedInside = isInside;
     this.applySelection();

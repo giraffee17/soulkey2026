@@ -1,5 +1,5 @@
 // Stand-in violin and bow made from simple shapes, used until the real model is bought.
-// Every part is an Object3D whose userData.partId matches an id in data/parts.js,
+// Every part is an Object3D whose userData.partId matches an id in the API's parts catalog,
 // so the real model can replace this file without changing any other code.
 // Units are centimetres. The violin lies along +Y (scroll up), its top facing +Z.
 import * as THREE from "three";

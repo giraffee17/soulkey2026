@@ -164,6 +164,35 @@
   color: var(--text-muted);
 }
 
+.part-info__retry {
+  margin-top: var(--space-4);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  background: none;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.part-info__retry:hover {
+  background: var(--accent);
+  color: var(--page);
+}
+
+.part-info__sources {
+  margin-top: var(--space-4);
+  color: var(--text-muted);
+  font-size: var(--size-small);
+}
+
+.part-info__sources summary {
+  cursor: pointer;
+}
+
+.part-info__sources a {
+  color: var(--text-muted);
+}
+
 /* The elegant table: no boxes, gold labels, hairlines that fade at both ends. */
 .info-table {
   margin-top: var(--space-6);

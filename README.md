@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-Then open http://127.0.0.1:8788. The API runs at http://127.0.0.1:8787 (try `/api/health`).
+Then open http://127.0.0.1:8788. The API runs at http://127.0.0.1:8787 (try `/api/health` and `/api/parts`).
 
 `npm install` also copies Three.js into `frontend-pages/public/vendor/three/` (the import map loads it from there, so there is no bundler).
 
@@ -34,7 +34,8 @@ npm test
 | `frontend-pages/public/js/components/` | `sk-*` Web Components |
 | `frontend-pages/public/js/framework/` | Signals, store, hash router |
 | `frontend-pages/public/js/scene/` | Three.js scene and the stand-in violin |
-| `frontend-pages/public/js/data/` | Part ids and interface text (EN and MN) |
+| `frontend-pages/public/js/data/` | Interface text (EN and MN) and the catalog loader |
+| `api-worker/content/parts.json` | All part data: ids, groups, names and info in EN and MN, sources. Served as JSON at `/api/parts` |
 | `api-worker/` | The Worker API (D1, R2, KV and Durable Object bindings arrive in later weeks) |
 | `scripts/` | Dev launcher, Three.js vendoring, structure checks |
 | `tests/` | Unit tests (`node --test`) |
@@ -59,4 +60,7 @@ npm run deploy:api
 npm run deploy:pages
 ```
 
-After the first deploy, add the Pages URL to `ALLOWED_ORIGINS` in `api-worker/wrangler.jsonc`.
+After the first deploy:
+
+1. Put the Worker's URL in `PRODUCTION_API` in `frontend-pages/public/js/config.js`.
+2. Add the Pages URL to `ALLOWED_ORIGINS` in `api-worker/wrangler.jsonc`.
