@@ -60,7 +60,7 @@ class SkStage extends HTMLElement {
   syncLang() {
     const lang = this.getAttribute("lang") || "en";
     this.setAttribute("aria-label", t(lang, "stageLabel"));
-    this.hint.textContent = t(lang, this.dataset.status === "loading" ? "loading" : "hint");
+    this.hint.textContent = t(lang, this.dataset.status === "loading" ? "modelLoading" : "hint");
   }
 }
 

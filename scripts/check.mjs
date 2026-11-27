@@ -19,7 +19,8 @@ async function filesIn(dir, extension) {
     .map((entry) => join(entry.parentPath ?? entry.path, entry.name));
 }
 
-// Rule 1: the server's catalog has exactly the part ids in the plan, and every text field has both languages.
+// Rule 1: the server's catalog has exactly the part ids in the plan, with names in both languages.
+// (The info texts live in api-worker/seed/part-texts.json; tests/part-content.test.js checks them.)
 const { parts: PARTS, groups: GROUPS } = catalog;
 const PLAN_IDS = [
   "top", "back", "ribs", "f-holes", "purfling", "end-button",
@@ -34,17 +35,8 @@ if (JSON.stringify(ids) !== JSON.stringify(PLAN_IDS)) fail(partsFile, "part ids 
 if (new Set(ids).size !== ids.length) fail(partsFile, "duplicate part id");
 const groupIds = GROUPS.map((group) => group.id);
 PARTS.filter((part) => !groupIds.includes(part.group)).forEach((part) => fail(partsFile, `unknown group for ${part.id}`));
-const TEXT_FIELDS = ["name", "whatItDoes", "madeOf", "whereItSits", "funFact"];
-for (const part of PARTS) {
-  for (const field of TEXT_FIELDS) {
-    const text = part[field];
-    if (!text || typeof text.en !== "string" || typeof text.mn !== "string") fail(partsFile, `${part.id}.${field} needs "en" and "mn"`);
-  }
-  if (!Array.isArray(part.sources)) fail(partsFile, `${part.id}.sources must be a list`);
-  (part.sources ?? []).forEach((source) => {
-    if (!/^https:\/\//.test(source.url ?? "")) fail(partsFile, `${part.id} has a source without an https link`);
-  });
-  if (part.whatItDoes.en && !part.sources.length) fail(partsFile, `${part.id} has facts but no sources`);
+for (const item of [...GROUPS, ...PARTS]) {
+  if (!item.name?.en || typeof item.name.mn !== "string") fail(partsFile, `${item.id}.name needs "en" and "mn"`);
 }
 
 // Rule 1b: part data lives on the server only, never hard-coded in the frontend.

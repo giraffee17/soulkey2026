@@ -11,7 +11,7 @@ import { startRouter } from "./framework/router.js";
 import { keepPanelTopInView } from "./panel-scroll.js";
 import { t } from "./data/strings.js";
 import { fetchCatalog } from "./data/catalog.js";
-import { API_ORIGIN } from "./config.js";
+import { apiBase } from "./data/api.js";
 import { createBottomSheet, SHEET_QUERY } from "./bottom-sheet.js";
 
 const stage = document.querySelector("sk-stage");
@@ -43,7 +43,7 @@ async function loadCatalog() {
   catalogRequest = request;
   store.setCatalogStatus("loading");
   try {
-    const catalog = await fetchCatalog(API_ORIGIN, { signal: request.signal });
+    const catalog = await fetchCatalog(apiBase(), { signal: request.signal });
     if (catalogRequest === request) store.setCatalog(catalog);
   } catch (error) {
     if (request.signal.aborted) return;

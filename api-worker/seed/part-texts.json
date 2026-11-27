@@ -1,0 +1,1135 @@
+{
+  "parts": [
+    {
+      "id": "top",
+      "en": {
+        "whatItDoes": "The top picks up the strings' vibrations through the bridge and vibrates to help make the violin's sound.",
+        "madeOf": "Spruce",
+        "whereItSits": "It is the front face of the violin's body, with the bridge standing on it.",
+        "funFact": "The top is usually made from two matching halves of spruce glued together down the middle."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "The Structure of the Violin:How sound is produced - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism004.html"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Violin acoustics: an introduction",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html"
+        },
+        {
+          "title": "How a Violin is Made:Selecting the right piece of wood - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/"
+        },
+        {
+          "title": "Violin",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "German Violin with Berliner Patent Tailpiece",
+          "url": "https://dashboard.si.edu/object/german-violin-berliner-patent-tailpiece%3Anmah_606803"
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "en": {
+        "whatItDoes": "The back vibrates too, getting energy from the top through the soundpost, and helps turn the strings' vibrations into sound.",
+        "madeOf": "Maple",
+        "whereItSits": "It forms the rear of the body, opposite the top, joined to it by the ribs.",
+        "funFact": "The maple back is much stiffer than the softer spruce top it faces."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "The Structure of the Violin:How sound is produced - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism004.html"
+        },
+        {
+          "title": "Violin",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        },
+        {
+          "title": "Violin acoustics: an introduction",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html"
+        },
+        {
+          "title": "How a Violin is Made:Selecting the right piece of wood - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Violin | Britannica",
+          "url": "https://www.britannica.com/art/violin"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Five More Things You May Not Know About String Instruments",
+          "url": "https://hub.yamaha.com/strings/s-acoustic/five-more-things-you-may-not-know-about-string-instruments"
+        }
+      ]
+    },
+    {
+      "id": "ribs",
+      "en": {
+        "whatItDoes": "The ribs are the curved sides that join the top to the back and hold them apart to form the body.",
+        "madeOf": "Maple",
+        "whereItSits": "They run all the way around the outline of the body, between the top and the back.",
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "How a Violin is Made:Selecting the right piece of wood - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/"
+        },
+        {
+          "title": "Violin",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        },
+        {
+          "title": "Violin | Britannica",
+          "url": "https://www.britannica.com/art/violin"
+        }
+      ]
+    },
+    {
+      "id": "f-holes",
+      "en": {
+        "whatItDoes": "They let the vibrating air inside the body out, and help the top vibrate more freely near the bridge.",
+        "madeOf": "Openings cut into the top; no extra material",
+        "whereItSits": "Two f-shaped openings in the top, one on each side of the bridge.",
+        "funFact": "Makers put in and adjust the soundpost by reaching inside the violin through an f-hole."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Trivia:The f-hole used to be a C-hole or S-hole - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/"
+        },
+        {
+          "title": "Violin acoustics: an introduction",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "How a Violin is Made:Varnishing, assembly, and then some - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/manufacturing003.html"
+        }
+      ]
+    },
+    {
+      "id": "purfling",
+      "en": {
+        "whatItDoes": "It helps stop cracks at the edges from spreading, and it also gives the violin a neat decorative outline.",
+        "madeOf": "Thin strips of layered wood",
+        "whereItSits": "It is inlaid in a groove running just inside the edges of the top and back.",
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Choosing a Violin:Other points to check - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection002.html"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "How a Violin is Made:Shaping the ideal tone - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/manufacturing002.html"
+        },
+        {
+          "title": "The Violin in the Sixteenth Century",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm"
+        }
+      ]
+    },
+    {
+      "id": "end-button",
+      "en": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": []
+    },
+    {
+      "id": "neck",
+      "en": {
+        "whatItDoes": "It joins the body to the pegbox. Your left hand holds the neck and slides up and down it while you play.",
+        "madeOf": "Maple, carved in one piece with the head",
+        "whereItSits": "It sticks out from the top of the body and leads up to the pegbox.",
+        "funFact": "Almost every old violin had its original neck swapped for a longer, more tilted one to make it sound louder."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Neck",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/neck.html"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Using Wood for Violin Makers | Oklahoma State University",
+          "url": "https://extension.okstate.edu/fact-sheets/using-wood-for-violin-makers"
+        },
+        {
+          "title": "violin · Grinnell College Musical Instrument Collection · Grinnell College Libraries",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "The Violin, Guide Sheet No. 8 (Musikinstrumenten-Museum SIM PK Berlin)",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf"
+        },
+        {
+          "title": "Pegbox",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html"
+        }
+      ]
+    },
+    {
+      "id": "scroll",
+      "en": {
+        "whatItDoes": "It is the curly decoration that finishes off the top of the violin. It does not change the sound.",
+        "madeOf": "Maple, carved together with the neck and pegbox",
+        "whereItSits": "At the very top end of the violin, just above the pegbox.",
+        "funFact": "Experts see the scroll as a maker's signature: a neat, even curl shows off their carving skill."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Scroll",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/scroll.html"
+        },
+        {
+          "title": "violin · Grinnell College Musical Instrument Collection · Grinnell College Libraries",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "violin family | Britannica",
+          "url": "https://www.britannica.com/art/scroll-violin-family"
+        },
+        {
+          "title": "Using Wood for Violin Makers | Oklahoma State University",
+          "url": "https://extension.okstate.edu/fact-sheets/using-wood-for-violin-makers"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "How a Violin is Made:Shaping the ideal tone - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/manufacturing002.html"
+        },
+        {
+          "title": "Pegbox",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html"
+        },
+        {
+          "title": "The Violin, Guide Sheet No. 8 (Musikinstrumenten-Museum SIM PK Berlin)",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf"
+        }
+      ]
+    },
+    {
+      "id": "pegbox",
+      "en": {
+        "whatItDoes": "It holds the four tuning pegs. The strings wind around these pegs so they can be tightened and tuned.",
+        "madeOf": "Maple, carved in one piece with the neck and scroll",
+        "whereItSits": "At the top end of the neck, just below the scroll.",
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Pegbox",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "violin · Grinnell College Musical Instrument Collection · Grinnell College Libraries",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "The violin: music acoustics from Baroque to Romantic (PhD thesis, UNSW School of Physics)",
+          "url": "https://newt.phys.unsw.edu.au/music/people/mclennan/McLennanThesisComplete.pdf"
+        },
+        {
+          "title": "The Violin, Guide Sheet No. 8 (Musikinstrumenten-Museum SIM PK Berlin)",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf"
+        }
+      ]
+    },
+    {
+      "id": "pegs",
+      "en": {
+        "whatItDoes": "Each string is wound around a peg. Turning the peg tightens or loosens the string, which is how you tune it.",
+        "madeOf": "Hard wood, usually ebony, rosewood or boxwood",
+        "whereItSits": "Four pegs push through holes in the sides of the pegbox, two on each side.",
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "violin · Grinnell College Musical Instrument Collection · Grinnell College Libraries",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Pegbox",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html"
+        },
+        {
+          "title": "Using Wood for Violin Makers | Oklahoma State University",
+          "url": "https://extension.okstate.edu/fact-sheets/using-wood-for-violin-makers"
+        },
+        {
+          "title": "The violin: music acoustics from Baroque to Romantic (PhD thesis, UNSW School of Physics)",
+          "url": "https://newt.phys.unsw.edu.au/music/people/mclennan/McLennanThesisComplete.pdf"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        }
+      ]
+    },
+    {
+      "id": "nut",
+      "en": {
+        "whatItDoes": "The strings pass over it on their way to the pegs. The nut and the bridge mark the two ends of the part of each string that vibrates.",
+        "madeOf": null,
+        "whereItSits": "A small ridge at the top end of the fingerboard, at the upper end of the neck.",
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "violin · Grinnell College Musical Instrument Collection · Grinnell College Libraries",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656"
+        },
+        {
+          "title": "Strings, standing waves and harmonics (UNSW Music Acoustics)",
+          "url": "https://phys.unsw.edu.au/jw/strings.html"
+        },
+        {
+          "title": "fingerboard | Britannica",
+          "url": "https://www.britannica.com/art/fingerboard"
+        }
+      ]
+    },
+    {
+      "id": "fingerboard",
+      "en": {
+        "whatItDoes": "You press the strings down onto it with your left-hand fingers to change the note. It has no frets.",
+        "madeOf": "Ebony",
+        "whereItSits": "It is glued on top of the neck and reaches out over the body toward the bridge.",
+        "funFact": "Older violins had shorter fingerboards; they were later made longer so players could reach higher notes."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Violin acoustics: an introduction (UNSW Music Acoustics)",
+          "url": "https://www.phys.unsw.edu.au/jw/violintro.html"
+        },
+        {
+          "title": "violin · Grinnell College Musical Instrument Collection · Grinnell College Libraries",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656"
+        },
+        {
+          "title": "Violin | Britannica",
+          "url": "https://www.britannica.com/art/violin"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "The Violin, Guide Sheet No. 8 (Musikinstrumenten-Museum SIM PK Berlin)",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf"
+        },
+        {
+          "title": "Using Wood for Violin Makers | Oklahoma State University",
+          "url": "https://extension.okstate.edu/fact-sheets/using-wood-for-violin-makers"
+        },
+        {
+          "title": "fingerboard | Britannica",
+          "url": "https://www.britannica.com/art/fingerboard"
+        },
+        {
+          "title": "Violin by Antonio Stradivari, Cremona, 1704, \"Betts\" | Library of Congress",
+          "url": "https://www.loc.gov/collections/musical-instruments-at-the-library-of-congress/articles-and-essays/stringed-instrument-collection/violins/betts/"
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "en": {
+        "whatItDoes": "Passes the strings' vibrations down into the violin's top, which turns them into a much louder sound. Strings alone make very little noise.",
+        "madeOf": "Maple",
+        "whereItSits": "Stands upright on the violin's top between the two f-holes, with the strings resting in notches along its top edge.",
+        "funFact": "The bridge isn't glued down. Only the pressure of the strings pressing on it holds it in place."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Violin | Britannica",
+          "url": "https://www.britannica.com/art/violin"
+        },
+        {
+          "title": "Violin | Britannica Kids (Students)",
+          "url": "https://kids.britannica.com/students/article/violin/390911"
+        },
+        {
+          "title": "Stringed instrument: The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Violin acoustics: an introduction (UNSW School of Physics)",
+          "url": "https://www.phys.unsw.edu.au/jw/violintro.html"
+        },
+        {
+          "title": "The Structure of the Violin: [Experiment 1] Using alternative materials for a bridge - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism005.html"
+        },
+        {
+          "title": "Violin/Viola Owner's Manual - Yamaha",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf"
+        },
+        {
+          "title": "Instrument Care-Violin, Viola & Cello | School of Music, University of Northern Iowa",
+          "url": "https://music.uni.edu/suzuki-school/instrument-care-violin-viola-cello"
+        }
+      ]
+    },
+    {
+      "id": "tailpiece",
+      "en": {
+        "whatItDoes": "Holds the lower ends of all four strings, anchoring them at the bottom of the violin.",
+        "madeOf": null,
+        "whereItSits": "Below the bridge, near the bottom of the violin, tied by a loop to a button at the very end.",
+        "funFact": "Even small changes to a tailpiece's material or design can change how the whole violin sounds."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Stringed instrument: The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Resonant Effects of the Violin Tailpiece (Jason Leung, McGill University thesis, 2015)",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g"
+        },
+        {
+          "title": "Violin/Viola Owner's Manual - Yamaha",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf"
+        },
+        {
+          "title": "Fittings - Collection of Historical String Instruments glossary, Oesterreichische Nationalbank",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/fittings.html"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuners",
+      "en": {
+        "whatItDoes": "Let you make small tuning adjustments to a string, which is much easier than turning the tuning pegs.",
+        "madeOf": null,
+        "whereItSits": "On the tailpiece, at the spot where the end of a string hooks on.",
+        "funFact": "Some violins have a fine tuner only on the E string, while others have one for every string."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "The Structure of the Violin: The structure of the strings - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html"
+        },
+        {
+          "title": "Resonant Effects of the Violin Tailpiece (Jason Leung, McGill University thesis, 2015)",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g"
+        },
+        {
+          "title": "Violin/Viola Owner's Manual - Yamaha",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf"
+        },
+        {
+          "title": "Fittings - Collection of Historical String Instruments glossary, Oesterreichische Nationalbank",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/fittings.html"
+        }
+      ]
+    },
+    {
+      "id": "chinrest",
+      "en": {
+        "whatItDoes": "Gives your chin and jaw a place to rest, helping you hold the violin steady.",
+        "madeOf": null,
+        "whereItSits": "Under the player's chin and jaw, where the violin is tucked against the neck and collarbone.",
+        "funFact": "The chinrest wasn't invented until the 1820s. Composer and violinist Louis Spohr came up with it."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Trivia: Is the chinrest the unsung hero of the violin? - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia005.html"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Stringed instrument: The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "The Search for Ease: Violin Set-Up Guide - Music Performance and Body, Schulich School of Music, McGill University",
+          "url": "https://sites.music.mcgill.ca/mpbs/no-pain-no-gain/the-search-for-ease-violin-set-up-guide"
+        },
+        {
+          "title": "The Violin in the Sixteenth Century | Heilbrunn Timeline of Art History - The Metropolitan Museum of Art",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm"
+        }
+      ]
+    },
+    {
+      "id": "saddle",
+      "en": {
+        "whatItDoes": "It takes the pull of the loop that holds the tailpiece, right where that loop bends over the edge of the top.",
+        "madeOf": null,
+        "whereItSits": "On the bottom edge of the violin's top, where the tailpiece loop bends over on its way to the end button.",
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Stringed instrument: The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Resonant Effects of the Violin Tailpiece (Jason Leung, McGill University thesis, 2015)",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g"
+        }
+      ]
+    },
+    {
+      "id": "string-g",
+      "en": {
+        "whatItDoes": "Vibrates to make sound. Played open (with no fingers down), it plays the note G, the lowest of the four strings.",
+        "madeOf": "Gut, nylon or steel core wound with metal wire",
+        "whereItSits": "Stretched from its tuning peg at the top, along the fingerboard and over the bridge, down to the tailpiece.",
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "The Structure of the Violin: The structure of the strings - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html"
+        },
+        {
+          "title": "Violin/Viola Owner's Manual - Yamaha",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Stringed instrument: The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Violin - HyperPhysics (Georgia State University)",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        },
+        {
+          "title": "Violin | Britannica Kids (Students)",
+          "url": "https://kids.britannica.com/students/article/violin/390911"
+        },
+        {
+          "title": "Choosing a Violin: Choosing strings - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html"
+        }
+      ]
+    },
+    {
+      "id": "string-d",
+      "en": {
+        "whatItDoes": "Vibrates to make sound. Played open, it plays the note D. It is the second-lowest string, between G and A.",
+        "madeOf": "Gut, nylon or steel core wound with metal wire",
+        "whereItSits": "Stretched from its tuning peg at the top, along the fingerboard and over the bridge, down to the tailpiece.",
+        "funFact": "Next-door strings are tuned a 'fifth' apart: count up five note names from G (G-A-B-C-D) and you reach D."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "The Structure of the Violin: The structure of the strings - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html"
+        },
+        {
+          "title": "Violin/Viola Owner's Manual - Yamaha",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Stringed instrument: The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Violin - HyperPhysics (Georgia State University)",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        },
+        {
+          "title": "Violin | Britannica Kids (Students)",
+          "url": "https://kids.britannica.com/students/article/violin/390911"
+        },
+        {
+          "title": "Choosing a Violin: Choosing strings - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html"
+        }
+      ]
+    },
+    {
+      "id": "string-a",
+      "en": {
+        "whatItDoes": "Vibrates to make sound. Played open, it plays the note A. It is the second-highest string, between D and E.",
+        "madeOf": "Gut, nylon or steel core wound with metal wire",
+        "whereItSits": "Stretched from its tuning peg at the top, along the fingerboard and over the bridge, down to the tailpiece.",
+        "funFact": "The open A string is normally tuned to vibrate 440 times per second (440 Hz)."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "The Structure of the Violin: The structure of the strings - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html"
+        },
+        {
+          "title": "Violin/Viola Owner's Manual - Yamaha",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Stringed instrument: The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Violin - HyperPhysics (Georgia State University)",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        },
+        {
+          "title": "Violin | Britannica Kids (Students)",
+          "url": "https://kids.britannica.com/students/article/violin/390911"
+        },
+        {
+          "title": "Choosing a Violin: Choosing strings - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html"
+        },
+        {
+          "title": "Resonant Effects of the Violin Tailpiece (Jason Leung, McGill University thesis, 2015)",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g"
+        }
+      ]
+    },
+    {
+      "id": "string-e",
+      "en": {
+        "whatItDoes": "Vibrates to make sound. Played open, it plays the note E, the highest of the four strings.",
+        "madeOf": "Usually steel",
+        "whereItSits": "Stretched from its tuning peg at the top, along the fingerboard and over the bridge, down to the tailpiece.",
+        "funFact": "Even the E string was once made of gut. Steel strings only became popular during the 1900s."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "The Structure of the Violin: The structure of the strings - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html"
+        },
+        {
+          "title": "Violin/Viola Owner's Manual - Yamaha",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Stringed instrument: The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Violin - HyperPhysics (Georgia State University)",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        },
+        {
+          "title": "Violin | Britannica Kids (Students)",
+          "url": "https://kids.britannica.com/students/article/violin/390911"
+        },
+        {
+          "title": "The Violin in the Sixteenth Century | Heilbrunn Timeline of Art History - The Metropolitan Museum of Art",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm"
+        },
+        {
+          "title": "Trivia: Steel strings or gut strings? That is the question - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia004.html"
+        }
+      ]
+    },
+    {
+      "id": "soundpost",
+      "en": {
+        "whatItDoes": "It carries vibrations from the top to the back and props up the top against the strings' downward pressure.",
+        "madeOf": "Spruce",
+        "whereItSits": "Inside the body, standing between top and back, close to the bridge foot under the E string.",
+        "funFact": "Because it matters so much to the sound, it is often nicknamed the violin's \"soul\"."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "The Structure of the Violin:How sound is produced - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism004.html"
+        },
+        {
+          "title": "Soundpost",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/soundpost.html"
+        },
+        {
+          "title": "Violin acoustics: an introduction",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Violin",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        }
+      ]
+    },
+    {
+      "id": "bass-bar",
+      "en": {
+        "whatItDoes": "It strengthens the top and spreads vibrations from the bridge's bass-side foot along the top, helping the low notes.",
+        "madeOf": "A long, thin strip of wood",
+        "whereItSits": "Glued lengthwise inside the top, under the bridge foot on the low-string side.",
+        "funFact": "Many old violins had their bass bars replaced with longer, stronger ones when string tension rose in the 1800s."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Bass bar",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/bass-bar.html"
+        },
+        {
+          "title": "Violin - Vienna Symphonic Library",
+          "url": "https://www.vsl.co.at/academy/strings/violin"
+        },
+        {
+          "title": "Violin acoustics: an introduction",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html"
+        },
+        {
+          "title": "Violin | Britannica",
+          "url": "https://www.britannica.com/art/violin"
+        },
+        {
+          "title": "Violin",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html"
+        },
+        {
+          "title": "The Violin in the Sixteenth Century",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm"
+        }
+      ]
+    },
+    {
+      "id": "stick",
+      "en": {
+        "whatItDoes": "The stick is the main body of the bow. Its gentle curve toward the hair keeps the hair stretched tight.",
+        "madeOf": "Wood, traditionally pernambuco (brazilwood)",
+        "whereItSits": "It runs the whole length of the bow, from the handle you hold to the tip.",
+        "funFact": "Pernambuco is also called brazilwood, and this tree helped give the country Brazil its name."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Terminology and Glossary - String Bows Terminology - Historical Instrument Collection | Birmingham City University",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Choosing a Violin:Choosing a bow - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection003.html"
+        },
+        {
+          "title": "Oxford University Plants 400: Paubrasilia echinata",
+          "url": "https://herbaria.plants.ox.ac.uk/bol/plants400/Profiles/op/Paubrasilia"
+        },
+        {
+          "title": "Bow for violin. - Musical Instrument Museums Edinburgh",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015"
+        },
+        {
+          "title": "Brazilwood | Britannica",
+          "url": "https://www.britannica.com/topic/brazilwood"
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "en": {
+        "whatItDoes": "The hair rubs against the strings and makes them vibrate. Rosin rubbed on the hair helps it grip.",
+        "madeOf": "Horsehair, usually white",
+        "whereItSits": "A flat ribbon of hair stretched under the stick, from the tip to the frog.",
+        "funFact": "Bow hair often comes from horses in cold countries, such as Mongolia."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Horsehair | Britannica",
+          "url": "https://www.britannica.com/topic/horsehair"
+        },
+        {
+          "title": "The Structure of the Violin:The structure of the bow - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism003.html"
+        },
+        {
+          "title": "Trivia:Violinists must bow to the horse - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia003.html"
+        },
+        {
+          "title": "Analysis of bow-hair fibres - mdw University of Music and Performing Arts Vienna (IWK)",
+          "url": "https://www.mdw.ac.at/iwk/?PageId=197"
+        },
+        {
+          "title": "Terminology and Glossary - String Bows Terminology - Historical Instrument Collection | Birmingham City University",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology"
+        }
+      ]
+    },
+    {
+      "id": "frog",
+      "en": {
+        "whatItDoes": "The frog holds the hair at the end you grip, and slides to make the hair tighter or looser.",
+        "madeOf": "Usually ebony, often with mother-of-pearl decoration",
+        "whereItSits": "At the end of the bow that you hold, just under the stick.",
+        "funFact": "Many frogs have a small, shiny round 'eye' on each side, often made of mother-of-pearl."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Trivia:What do you call the part on the bow that you hold? - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia020.html"
+        },
+        {
+          "title": "Terminology and Glossary - String Bows Terminology - Historical Instrument Collection | Birmingham City University",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Violin Bow - probably French - The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/503221"
+        },
+        {
+          "title": "Vuillaume Violin Bow | Smithsonian Institution",
+          "url": "https://si.edu/object/vuillaume-violin-bow:nmah_1028332"
+        },
+        {
+          "title": "violin bow (National Music Museum eMuseum)",
+          "url": "https://emuseum.nmmusd.org/objects/details/6536"
+        },
+        {
+          "title": "Bow for violin. - Musical Instrument Museums Edinburgh",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015"
+        }
+      ]
+    },
+    {
+      "id": "screw",
+      "en": {
+        "whatItDoes": "Turning the screw moves the frog to tighten the hair before playing. Loosen it again when you finish.",
+        "madeOf": "Ebony button, often with metal rings",
+        "whereItSits": "At the very end of the stick, just behind the frog.",
+        "funFact": null
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Terminology and Glossary - String Bows Terminology - Historical Instrument Collection | Birmingham City University",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology"
+        },
+        {
+          "title": "Care and Maintenance of a Violin:Bow maintenance - Musical Instrument Guide - Yamaha Corporation",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/maintenance/maintenance004.html"
+        },
+        {
+          "title": "Violin Bow - probably French - The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/503221"
+        },
+        {
+          "title": "Vuillaume Violin Bow | Smithsonian Institution",
+          "url": "https://si.edu/object/vuillaume-violin-bow:nmah_1028332"
+        },
+        {
+          "title": "violin bow (National Music Museum eMuseum)",
+          "url": "https://emuseum.nmmusd.org/objects/details/6536"
+        },
+        {
+          "title": "Bow for violin. - Musical Instrument Museums Edinburgh",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015"
+        }
+      ]
+    },
+    {
+      "id": "tip",
+      "en": {
+        "whatItDoes": "The tip holds the far end of the hair firmly in place.",
+        "madeOf": "The stick's own wood, with a protective face plate",
+        "whereItSits": "At the thin far end of the bow, opposite the frog.",
+        "funFact": "Today's tip shape grew out of designs by the Tourte family of bowmakers in the late 1700s."
+      },
+      "mn": {
+        "whatItDoes": null,
+        "madeOf": null,
+        "whereItSits": null,
+        "funFact": null
+      },
+      "sources": [
+        {
+          "title": "Terminology and Glossary - String Bows Terminology - Historical Instrument Collection | Birmingham City University",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology"
+        },
+        {
+          "title": "Stringed instrument - The violin family | Britannica",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family"
+        },
+        {
+          "title": "Violin Bow - probably French - The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/503221"
+        },
+        {
+          "title": "Bow for violin. - Musical Instrument Museums Edinburgh",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015"
+        },
+        {
+          "title": "violin bow (National Music Museum eMuseum)",
+          "url": "https://emuseum.nmmusd.org/objects/details/6536"
+        }
+      ]
+    }
+  ]
+}

@@ -17,6 +17,19 @@ Then open http://127.0.0.1:8788. The API runs at http://127.0.0.1:8787 (try `/ap
 
 `npm install` also copies Three.js into `frontend-pages/public/vendor/three/` (the import map loads it from there, so there is no bundler).
 
+## Database (D1)
+
+The panel's part texts live in a D1 database. Their source of truth is `api-worker/seed/part-texts.json` (English and Mongolian, with sources); the tables are in `api-worker/migrations/`.
+
+`npm run dev` creates and fills a local copy every time it starts. After editing the JSON, run `npm run db:local` (or restart `npm run dev`) to load the change.
+
+For the real Cloudflare database, after it is created (`npx wrangler d1 create soulkey-db`, then put its `database_id` in `api-worker/wrangler.jsonc`):
+
+```
+npm run db:migrate:remote
+npm run db:seed:remote
+```
+
 ## Check before every commit
 
 ```
@@ -34,10 +47,11 @@ npm test
 | `frontend-pages/public/js/components/` | `sk-*` Web Components |
 | `frontend-pages/public/js/framework/` | Signals, store, hash router |
 | `frontend-pages/public/js/scene/` | Three.js scene and the stand-in violin |
-| `frontend-pages/public/js/data/` | Interface text (EN and MN) and the catalog loader |
-| `api-worker/content/parts.json` | All part data: ids, groups, names and info in EN and MN, sources. Served as JSON at `/api/parts` |
-| `api-worker/` | The Worker API (D1, R2, KV and Durable Object bindings arrive in later weeks) |
-| `scripts/` | Dev launcher, Three.js vendoring, structure checks |
+| `frontend-pages/public/js/data/` | Interface text (EN and MN), the catalog loader and the part texts loader |
+| `api-worker/content/parts.json` | The parts catalog: ids, groups and names (EN and MN). Served as JSON at `/api/parts` |
+| `api-worker/seed/` | Part texts (EN and MN, with sources), loaded into D1 and served at `/api/parts/:id` |
+| `api-worker/` | The Worker API: D1 part texts now; R2, KV and Durable Object bindings arrive in later weeks |
+| `scripts/` | Dev launcher, Three.js vendoring, local database setup and seeding, model converter, structure checks |
 | `tests/` | Unit tests (`node --test`) |
 
 ## 3D model

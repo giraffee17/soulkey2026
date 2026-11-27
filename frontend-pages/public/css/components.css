@@ -179,19 +179,6 @@
   color: var(--page);
 }
 
-.part-info__sources {
-  margin-top: var(--space-4);
-  color: var(--text-muted);
-  font-size: var(--size-small);
-}
-
-.part-info__sources summary {
-  cursor: pointer;
-}
-
-.part-info__sources a {
-  color: var(--text-muted);
-}
 
 /* The elegant table: no boxes, gold labels, hairlines that fade at both ends. */
 .info-table {
@@ -221,6 +208,50 @@
 .info-table__value[data-pending="true"] {
   color: var(--text-faint);
   font-style: italic;
+}
+
+/* Rows fade in one after another (opacity and transform only, Week 3).
+   With reduced motion the rows simply appear. */
+@media (prefers-reduced-motion: no-preference) {
+  .info-table__row--enter {
+    animation: info-row-in var(--duration) var(--ease-out) both;
+    animation-delay: calc(var(--row, 0) * 70ms);
+  }
+}
+
+@keyframes info-row-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.375rem);
+  }
+}
+
+/* Sources are folded: the summary names the sites, the links open below. */
+.info-table__summary {
+  color: var(--text-faint);
+  font-size: var(--size-small);
+  cursor: pointer;
+}
+
+.info-table__summary:hover {
+  color: var(--text-muted);
+}
+
+.info-table__links {
+  margin: var(--space-2) 0 0;
+  padding-inline-start: var(--space-4);
+  font-size: var(--size-small);
+}
+
+.info-table__link {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+
+.part-info__status {
+  margin-top: var(--space-6);
+  color: var(--text-muted);
 }
 
 @container panel (min-width: 26rem) {

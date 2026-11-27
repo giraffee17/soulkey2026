@@ -35,7 +35,7 @@ button {
 }
 
 /* Visible focus for keyboard users only (Week 2, L7). */
-:where(button, a, [tabindex]):focus-visible {
+:where(button, a, summary, [tabindex]):focus-visible {
   outline: 3px solid var(--focus-ring);
   outline-offset: 3px;
 }

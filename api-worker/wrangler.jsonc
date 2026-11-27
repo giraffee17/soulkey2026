@@ -6,7 +6,15 @@
   "vars": {
     // Origins allowed to call the API (CORS). Add the Pages URL after the first deploy.
     "ALLOWED_ORIGINS": "http://127.0.0.1:8788,http://localhost:8788"
-  }
-  // Week 2: D1 (part texts) and R2 (model, sounds, scans) bindings.
+  },
+  // Week 2: D1 holds the part texts. `npm run dev` creates and fills a local copy.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "soulkey-db",
+      "migrations_dir": "migrations"
+    }
+  ]
+  // Week 2: R2 (model, sounds, scans) binding.
   // Week 3: KV (site settings) and the audience Durable Object.
 }

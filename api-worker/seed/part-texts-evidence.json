@@ -1,0 +1,1604 @@
+{
+  "note": "Why each English fact in part-texts.json is trusted: two short quotes from two different official sources per filled field. Quotes were read through a web tool, so check the page if a word looks off. Not used by the site.",
+  "parts": [
+    {
+      "id": "top",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism004.html",
+          "quote": "Vibrations from the strings are transmitted to the top plate and bottom plate through the bridge"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The bridge transmits the vibrations of the strings to the belly via two small feet."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The belly and back plates are made so that they can vibrate up and down relatively easily."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/",
+          "quote": "The top plate is made from spruce wood, which has a nice sound and is light and hard."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "Spruce is used for the belly, maple for the back and ribs."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "The belly, linings, and the soundpost are usually made of spruce."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The bridge stands on the belly between the f holes."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "is the sound post which extends from the front to the back plate of the instrument."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism004.html",
+          "quote": "The bridge transmits this vibration to the top plate of the violin through two fundamental movements;"
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "To make the belly a wedge is cut out of a piece of spruce and split down the middle to form two symmetrical parts."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "two wedges are glued"
+        },
+        {
+          "field": "funFact",
+          "url": "https://dashboard.si.edu/object/german-violin-berliner-patent-tailpiece%3Anmah_606803",
+          "quote": "The violin is made of a two-piece table of spruce"
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism004.html",
+          "quote": "it transmits the vibrations from the top plate to the bottom plate"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "couple the sound energy from the top plate to the back plate of the instrument"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "all serve to transmit the vibration of the bridge into vibration of the air around the instrument."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/",
+          "quote": "Maple is used for the bottom and side plates because of its beautiful wood grain pattern."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "Spruce is used for the belly, maple for the back and ribs."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.britannica.com/art/violin",
+          "quote": "wedged between the violin belly and back, which is made of maple"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The curved ribs join the belly to the back and consist of the upper bout, middle bout and lower bout."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "spaced apart by shallow ribs of the same material."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The body: the front and back plates, the sides and the air inside"
+        },
+        {
+          "field": "funFact",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "which is a small post connecting the relatively flexible belly plate of the violin to the much stiffer back plate."
+        },
+        {
+          "field": "funFact",
+          "url": "https://hub.yamaha.com/strings/s-acoustic/five-more-things-you-may-not-know-about-string-instruments",
+          "quote": "Tops are normally spruce, which is much softer and helps produce a strong tone."
+        },
+        {
+          "field": "funFact",
+          "url": "https://hub.yamaha.com/strings/s-acoustic/five-more-things-you-may-not-know-about-string-instruments",
+          "quote": "The back, ribs and neck are carved from maple, which is a rigid wood."
+        }
+      ]
+    },
+    {
+      "id": "ribs",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The curved ribs join the belly to the back and consist of the upper bout, middle bout and lower bout."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "spaced apart by shallow ribs of the same material."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/",
+          "quote": "Maple is used for the bottom and side plates because of its beautiful wood grain pattern."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "The back, the neck, the ribs and the bridge are usually made of maple."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.britannica.com/art/violin",
+          "quote": "The sidewalls, or ribs, are constructed of pine-lined maple."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The ribs are slightly inset from the outline of the belly and back, so that the edge overhangs all around."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The curved ribs join the belly to the back and consist of the upper bout, middle bout and lower bout."
+        }
+      ]
+    },
+    {
+      "id": "f-holes",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/",
+          "quote": "these serve to transmit to the outside air the vibrations within the body caused by the body's resonance"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "One is to connect the air inside to the air outside"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "the part of the belly lying between the f holes can move more easily than can most of the wood of the body."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The F-holes that are cut into the belly help it to vibrate near the bridge"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The F-holes that are cut into the belly help it to vibrate near the bridge"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "This adjustment is made through the sound holes in the belly."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/",
+          "quote": "The openings on both sides of the body of the violin that are shaped like a lowercase \"f\" are appropriately called f-holes"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The bridge stands on the belly between the f holes."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The bridge is positioned between the F-holes"
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/manufacturing003.html",
+          "quote": "Using a special tool designed for this purpose, the sound post is installed through the f-hole."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "This adjustment is made through the sound holes in the belly."
+        }
+      ]
+    },
+    {
+      "id": "purfling",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection002.html",
+          "quote": "Though the purfling is decorative, it also has another purpose: to prevent cracking."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "has the function of preventing incipient splits from running."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "This, the only decoration normally permitted"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The edges of the belly and back are inlaid with pearwood or ebony to strengthen the joins; this inlay is called purfling."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/manufacturing002.html",
+          "quote": "purfling, a three-ply piece of wood with black, white, and black plies"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "a narrow inlay of laminated woods, the purfling"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/manufacturing002.html",
+          "quote": "After an initial rough shaping, a groove is carved around the edge and purfling"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The edges of the belly and back are inlaid with pearwood or ebony to strengthen the joins; this inlay is called purfling."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm",
+          "quote": "the inlaid border near the edges of the violin’s back and front"
+        }
+      ]
+    },
+    {
+      "id": "end-button",
+      "evidence": []
+    },
+    {
+      "id": "soundpost",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism004.html",
+          "quote": "it transmits the vibrations from the top plate to the bottom plate"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/soundpost.html",
+          "quote": "It provides structural support to the belly and carries the sound from the belly – the soundboard – to the back."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "This post helps prevent the belly from collapsing under the vertical component of the tension in the strings"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The soundpost, a 6 mm thick rod made of spruce, is placed next to the bridge's right foot"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "The belly, linings, and the soundpost are usually made of spruce."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/soundpost.html",
+          "quote": "The soundpost is a dowel inside the body close to the E-string several millimeters below the treble foot of the bridge."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The treble foot of the bridge (the one under the E string) is quite near the soundpost"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "and wedged between the back and the belly."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "Because of its vital importance to the instrument's sound it is often called the “soul” of the violin."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/soundpost.html",
+          "quote": "the soundpost, which is sometimes called the soul (anima in Italian) of the instrument,"
+        }
+      ]
+    },
+    {
+      "id": "bass-bar",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/bass-bar.html",
+          "quote": "It reinforces the belly and transfers vibrations directly from the bridge down the length of the belly."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "and transmits the vibrations of the bridge's left foot, the low notes, to the belly."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "It extends beyond the f-holes and thus transmits the motion of the bass foot of the bridge"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/violin",
+          "quote": "The belly is supported from beneath by the bass bar"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "a long, thin wooden strip called the bass bar is attached, almost parallel to the strings."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.britannica.com/art/violin",
+          "quote": "the bass bar, a narrow wood bar running lengthwise and tapering into the belly."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm",
+          "quote": "a piece of wood glued inside under the bass foot of the bridge"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/bass-bar.html",
+          "quote": "The bass bar, which is glued to the inside of the belly off-center and lengthwise,"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://newt.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "Under the belly on the bass foot side of the bridge is the bass bar."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm",
+          "quote": "a piece of wood glued inside under the bass foot of the bridge"
+        },
+        {
+          "field": "funFact",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/bass-bar.html",
+          "quote": "To accommodate the higher pressure, the original bass bars were generally replaced by longer, more massive bass bars"
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "To cope with the increased pressure of the strings on the table the bass bar and sound post were also reinforced."
+        }
+      ]
+    },
+    {
+      "id": "neck",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/neck.html",
+          "quote": "The neck, which violinists cradle in their left hand, connects the body to the pegbox."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The circumference is the same along its entire length which makes it easier for the left hand to slide up and down"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The head and neck are carved from a single piece of maple."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "The neck (including the pegbox and scroll) is fashioned from a piece of maple."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://extension.okstate.edu/fact-sheets/using-wood-for-violin-makers",
+          "quote": "In general, maple is used for back plate, rib, neck and scroll"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html",
+          "quote": "The pegbox at the upper end of the neck holds the pegs that tighten and tune the strings."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The lower end is formed into a shoulder that abuts against the ribs at the top of the body."
+        },
+        {
+          "field": "funFact",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/neck.html",
+          "quote": "Subsequently, the original necks of nearly all violins were replaced to increase volume and projection."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf",
+          "quote": "Only a few old violins with no changes to the neck have been passed down."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "lengthening and slimming the neck slightly and setting it back at a greater angle"
+        }
+      ]
+    },
+    {
+      "id": "scroll",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/scroll.html",
+          "quote": "As the scroll does not contribute to sound, luthiers have some stylistic leeway"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "The scroll at the top end of the neck is purely ornamental."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "At the top of the head is the scroll, again a typical embellishment of the violin."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://extension.okstate.edu/fact-sheets/using-wood-for-violin-makers",
+          "quote": "In general, maple is used for back plate, rib, neck and scroll"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "The neck (including the pegbox and scroll) is fashioned from a piece of maple."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The head and neck are carved from a single piece of maple."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html",
+          "quote": "The scroll is located above the pegbox."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/manufacturing002.html",
+          "quote": "The scroll is at the very top of the neck."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf",
+          "quote": "Scroll above the peg box"
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/art/scroll-violin-family",
+          "quote": "its austere purity of line and curve being both the challenge and the sign manual of the master instrument maker."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/manufacturing/manufacturing002.html",
+          "quote": "The craftsman's skill is demonstrated in the symmetry of the scroll."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/scroll.html",
+          "quote": "in crafting scrolls, allowing them to showcase their skill with individual designs."
+        }
+      ]
+    },
+    {
+      "id": "pegbox",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html",
+          "quote": "The pegbox at the upper end of the neck holds the pegs that tighten and tune the strings."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The pegbox carries the four tuning pegs, two on each side."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "are then wound around the tuning pegs with which their tension can be controlled."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "The neck (including the pegbox and scroll) is fashioned from a piece of maple."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The head and neck are carved from a single piece of maple."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://newt.phys.unsw.edu.au/music/people/mclennan/McLennanThesisComplete.pdf",
+          "quote": "The neck, pegbox and scroll were likewise carved from a solid block."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html",
+          "quote": "The pegbox at the upper end of the neck holds the pegs"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf",
+          "quote": "Scroll above the peg box"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The head, with the pegbox and scroll, is a continuation of the neck."
+        }
+      ]
+    },
+    {
+      "id": "pegs",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "are then wound around the tuning pegs with which their tension can be controlled."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The pegs, which are used to adjust the tension of the strings, are found in the four peg holes"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/pegbox.html",
+          "quote": "holds the pegs that tighten and tune the strings."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://extension.okstate.edu/fact-sheets/using-wood-for-violin-makers",
+          "quote": "Fingerboard and pegs require high density durable wood species; therefore, ebony, rosewood and boxwood are widely used"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://newt.phys.unsw.edu.au/music/people/mclennan/McLennanThesisComplete.pdf",
+          "quote": "Today, these fittings are most often ebony or boxwood but not the fingerboard."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The pegs are tapered and pass through two holes in the cheeks of the head."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "The pegbox has four laterally mounted wooden tuning pegs, two per side."
+        }
+      ]
+    },
+    {
+      "id": "nut",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://phys.unsw.edu.au/jw/strings.html",
+          "quote": "the strings do not bend with complete ease over the nut and bridge"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/fingerboard",
+          "quote": "the nut, which is grooved to take the strings, keeping them correctly spaced apart"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "Each string has the same active vibrational length (the distance between the bridge and the nut) of 12.8 inches."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://phys.unsw.edu.au/jw/strings.html",
+          "quote": "Before you press it, the shortest distance between nut and bridge."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/fingerboard",
+          "quote": "At the top of the neck is the nut"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "At the top end of the fingerboard is a horizontally positioned wooden nut."
+        }
+      ]
+    },
+    {
+      "id": "fingerboard",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The player changes this by holding the string firmly against the fingerboard with the fingers of the left hand."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "An arched, slightly angled, fretless fingerboard of ebony wood is glued to the topside of the neck."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/violin",
+          "quote": "Like its predecessors but unlike its cousin the viol, the violin has a fretless fingerboard."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The fingerboard is solid ebony, joined to the neck and projecting over the belly."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf",
+          "quote": "ebony has regularly been used for the fingerboard since the early 19th century."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://extension.okstate.edu/fact-sheets/using-wood-for-violin-makers",
+          "quote": "makes this species an ideal material for fingerboard, tail piece and pegs of the violin"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/fingerboard",
+          "quote": "the curved fingerboard, which projects beyond the shoulder and over the belly toward the bridge."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The fingerboard extends beyond the neck over the body and is important for intonation."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/656",
+          "quote": "fretless fingerboard of ebony wood is glued to the topside of the neck."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "At the same time both the neck and the fingerboard were lengthened."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The length of the fingerboard determines how far the range extends upward."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.simpk.de/fileadmin/user_upload_sim/Dokumente/Museum/Sammlung/Fuehrungsblaetter_EN/FB_08_Geige_GB_pre.pdf",
+          "quote": "This created the need for the fingerboards to be extended."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.loc.gov/collections/musical-instruments-at-the-library-of-congress/articles-and-essays/stringed-instrument-collection/violins/betts/",
+          "quote": "This area corresponds with the dimensions of the original fingerboard giving a clue to the range of notes that a musician could play."
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/violin",
+          "quote": "The bridge transmits the strings’ vibrations to the violin belly, or soundboard"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The bridge transmits the vibrations of the strings to the belly via two small feet."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The bridge transfers some of the energy of vibration of the string to the body of the violin."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The strings themselves make hardly any noise"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "The bridge transmits the string vibrations to the violin’s pine belly, or soundboard, which amplifies the sound."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism005.html",
+          "quote": "The bridge is usually made from maple, but this experiment used bridges made with different materials."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The bridge is positioned between the F-holes and is made of maple, 30 mm high and 40 mm wide."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.phys.unsw.edu.au/jw/violintro.html",
+          "quote": "The bridge stands on the belly between the f holes."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The bridge is positioned between the F-holes and is made of maple, 30 mm high and 40 mm wide."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "Its correct position is between the sound holes and just above the lower corners of the middle bout."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "Four notches in the bridge provide proper spacing between the strings."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "It is not a fixture but is kept in position only by the pressure of the strings."
+        },
+        {
+          "field": "funFact",
+          "url": "https://music.uni.edu/suzuki-school/instrument-care-violin-viola-cello",
+          "quote": "The bridge is not glued to the body of the instrument."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The pressure of the strings presses it against the belly."
+        }
+      ]
+    },
+    {
+      "id": "tailpiece",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The lower ends of the strings are held by the long tailpiece below the bridge,"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "The tailpiece is the fixture used to hold the strings."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "At the tailpiece, hook the string's ball end onto the fine tuner's notch."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The lower end of the tailpiece is anchored by a loop of gut to an ebony button"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "looped around the end button via the tailgut"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "the afterlength measures 52 mm from the bridge to the “fret” on the tailpiece"
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/fittings.html",
+          "quote": "Even minimal changes in the material or design of the tailpiece can have an impact on the instrument's sound."
+        },
+        {
+          "field": "funFact",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "The tailpiece inevitably has an influence on the sound of the instrument, but such effects are poorly understood."
+        }
+      ]
+    },
+    {
+      "id": "fine-tuners",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "Only the high E string has an adjuster so that it can be easily tuned"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "While fine tuners greatly ease the tuning process, especially when using metal core strings,"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "At the tailpiece, hook the string's ball end onto the fine tuner's notch."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "A Hill model fine tuner fastens the E-string onto a Hill model tailpiece"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.oenb.at/en/About-Us/collection-of-historical-string-instruments/glossary/fittings.html",
+          "quote": "Fittings include end buttons, tailpieces with fine tuners, and pegs"
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "Recently, some violins come with four adjusters built into the tailpiece, so this is another option to consider."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "Only the high E string has an adjuster so that it can be easily tuned"
+        },
+        {
+          "field": "funFact",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "extra fine tuners (5.0±0.25 g each) were attached to the G-, D-, and A-string sockets"
+        }
+      ]
+    },
+    {
+      "id": "chinrest",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia005.html",
+          "quote": "Violinists put their chin on the chinrest and tuck the violin in the crook of their neck to support the instrument."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The chin rest, which is made of wood or plastic, and the shoulder rest, made of fabric, support the instrument"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "In contemporary usage the violin and viola are held between the chin and the collarbone with the aid of a chin rest,"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://sites.music.mcgill.ca/mpbs/no-pain-no-gain/the-search-for-ease-violin-set-up-guide",
+          "quote": "the jaw bone should rest on the chinrest"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia005.html",
+          "quote": "Violinists put their chin on the chinrest and tuck the violin in the crook of their neck to support the instrument."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia005.html",
+          "quote": "The chinrest is indispensable for the support of the instrument, but it was invented only in the 1820s."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia005.html",
+          "quote": "The inventor of the chinrest, composer Louis Spohr, contributed to the development of modern violin performance techniques."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "In around 1820 the German composer and violin virtuoso Louis Spohr (1784-1859) invented the chin-rest,"
+        },
+        {
+          "field": "funFact",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm",
+          "quote": "Violin chin rests were not used until the nineteenth century,"
+        }
+      ]
+    },
+    {
+      "id": "saddle",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The saddle takes the pull of the tailgut off the edge of the belly."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "Near the saddle (where the tailgut bends around the top plate)"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The saddle takes the pull of the tailgut off the edge of the belly."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "Near the saddle (where the tailgut bends around the top plate)"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "looped around the end button via the tailgut"
+        }
+      ]
+    },
+    {
+      "id": "string-g",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "From high to low, the strings on the violin are E, A, D, and G."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "the 1st string is tuned to E, the 2nd string to A, the 3rd string to D, and the 4th string to G."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The lowest string is the G string which is usually made of gut and wound with silver or copper wire."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The violin itself is normally tuned in fifths (g, d′, a′, e″),"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "tuned to intervals of a fifth: G3, D4, A4, E5."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "The strings are tuned a fifth apart at G3(196 Hz), D4(293.7 Hz), A4, E5(659.3 Hz)"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html",
+          "quote": "Strings can be generally categorized by the material used for the core: steel, catgut, or nylon."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html",
+          "quote": "The thin wire used to wind around the core is often made of aluminum or silver"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The lowest string is the G string which is usually made of gut and wound with silver or copper wire."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "Material: gut, silver, copper, aluminum, steel, nylon."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "Its four strings run from the tuning pegs in the pegbox at the top of the instrument to a tailpiece."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "Between the pegbox and the tailpiece, the strings run above the fingerboard and over a bridge."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "The four strings are attached to the four tuning pegs"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "At the tailpiece, hook the string's ball end onto the fine tuner's notch."
+        }
+      ]
+    },
+    {
+      "id": "string-d",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "From high to low, the strings on the violin are E, A, D, and G."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "the 1st string is tuned to E, the 2nd string to A, the 3rd string to D, and the 4th string to G."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The violin itself is normally tuned in fifths (g, d′, a′, e″),"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "tuned to intervals of a fifth: G3, D4, A4, E5."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "The strings are tuned a fifth apart at G3(196 Hz), D4(293.7 Hz), A4, E5(659.3 Hz)"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html",
+          "quote": "Strings can be generally categorized by the material used for the core: steel, catgut, or nylon."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html",
+          "quote": "The thin wire used to wind around the core is often made of aluminum or silver"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The D and A strings are made either of gut or plastic and are aluminum-wound, the E string is normally made of steel."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "Its four strings run from the tuning pegs in the pegbox at the top of the instrument to a tailpiece."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "Between the pegbox and the tailpiece, the strings run above the fingerboard and over a bridge."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "The four strings are attached to the four tuning pegs"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "At the tailpiece, hook the string's ball end onto the fine tuner's notch."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The violin itself is normally tuned in fifths (g, d′, a′, e″),"
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "tuned to intervals of a fifth: G3, D4, A4, E5."
+        },
+        {
+          "field": "funFact",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "The strings are tuned a fifth apart at G3(196 Hz), D4(293.7 Hz), A4, E5(659.3 Hz)"
+        }
+      ]
+    },
+    {
+      "id": "string-a",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "From high to low, the strings on the violin are E, A, D, and G."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "the 1st string is tuned to E, the 2nd string to A, the 3rd string to D, and the 4th string to G."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The violin itself is normally tuned in fifths (g, d′, a′, e″),"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "tuned to intervals of a fifth: G3, D4, A4, E5."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "The strings are tuned a fifth apart at G3(196 Hz), D4(293.7 Hz), A4, E5(659.3 Hz)"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html",
+          "quote": "Strings can be generally categorized by the material used for the core: steel, catgut, or nylon."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection005.html",
+          "quote": "The thin wire used to wind around the core is often made of aluminum or silver"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The D and A strings are made either of gut or plastic and are aluminum-wound, the E string is normally made of steel."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "Its four strings run from the tuning pegs in the pegbox at the top of the instrument to a tailpiece."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "Between the pegbox and the tailpiece, the strings run above the fingerboard and over a bridge."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "The four strings are attached to the four tuning pegs"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "At the tailpiece, hook the string's ball end onto the fine tuner's notch."
+        },
+        {
+          "field": "funFact",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "using the A4 = 440Hz standard"
+        },
+        {
+          "field": "funFact",
+          "url": "https://escholarship.mcgill.ca/downloads/5138jh40g",
+          "quote": "aurally tuned in just intonation with the A4 set to 440 Hz"
+        }
+      ]
+    },
+    {
+      "id": "string-e",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "From high to low, the strings on the violin are E, A, D, and G."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "the 1st string is tuned to E, the 2nd string to A, the 3rd string to D, and the 4th string to G."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The violin itself is normally tuned in fifths (g, d′, a′, e″),"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "tuned to intervals of a fifth: G3, D4, A4, E5."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+          "quote": "The strings are tuned a fifth apart at G3(196 Hz), D4(293.7 Hz), A4, E5(659.3 Hz)"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The D and A strings are made either of gut or plastic and are aluminum-wound, the E string is normally made of steel."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://artistproject.metmuseum.org/toah/hd/strd/hd_strd.htm",
+          "quote": "Modern violin strings are made of steel, not gut, and are strung about 50 percent tighter than Baroque strings."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "Its four strings run from the tuning pegs in the pegbox at the top of the instrument to a tailpiece."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://kids.britannica.com/students/article/violin/390911",
+          "quote": "Between the pegbox and the tailpiece, the strings run above the fingerboard and over a bridge."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism002.html",
+          "quote": "The four strings are attached to the four tuning pegs"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://europe.yamaha.com/files/download/other_assets/0/313360/02_violin_E_0702.pdf",
+          "quote": "At the tailpiece, hook the string's ball end onto the fine tuner's notch."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.vsl.co.at/academy/strings/violin",
+          "quote": "The E string was also made of gut in the 19th century and was not replaced by a steel one until the 20th century."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia004.html",
+          "quote": "However, steel strings became popular only in the second half of the twentieth century."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia004.html",
+          "quote": "Until steel strings came on the scene, gut strings made from sheep intestines, were widely used."
+        }
+      ]
+    },
+    {
+      "id": "stick",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "The main part of the bow, made of wood and often cambered and shaped."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "puts the horsehair under considerable pressure"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015",
+          "quote": "The round, concave, pernambuco stick"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The light tapering stick now is made of brazilwood (Pernambuco wood)"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/selection003.html",
+          "quote": "The best wood for making bows is the extremely hard wood of the pernambuco tree."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://herbaria.plants.ox.ac.uk/bol/plants400/Profiles/op/Paubrasilia",
+          "quote": "Today, one of the main uses of brazilwood is for making high-quality bows for stringed instruments."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "The part of the stick, at the back of the bow, which the player holds when playing."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "with a hatchet-shaped head formed at the thinner end"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015",
+          "quote": "ends in a modern head with an ivory headface"
+        },
+        {
+          "field": "funFact",
+          "url": "https://herbaria.plants.ox.ac.uk/bol/plants400/Profiles/op/Paubrasilia",
+          "quote": "Brazilwood gave its name to the country."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/topic/brazilwood",
+          "quote": "played a role in the naming of that country"
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "made of brazilwood (Pernambuco wood)"
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "this supplies the frictional element that is necessary to make the string vibrate"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia003.html",
+          "quote": "those bumps create the friction that produces the characteristic subtle weeping tone of the violin"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism003.html",
+          "quote": "Rosin is applied to the bow hair before being used."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.mdw.ac.at/iwk/?PageId=197",
+          "quote": "rosin sticks to the platelets on the surface of the hair."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.britannica.com/topic/horsehair",
+          "quote": "High-grade white horsehair is used for the strings of fine violin bows."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism003.html",
+          "quote": "The bow hair is made of a hank of horsehair."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia003.html",
+          "quote": "The most popular horsehair, which is said to produce a good tone, is white horsehair from Mongolia."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "The hair is retained as a flat ribbon by passing through a specially shaped ferrule and a shallow channel in the frog"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/mechanism/mechanism003.html",
+          "quote": "These hairs are all attached next to each to form a ribbon."
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "A cavity cut into the stick wood found on the head and frog, into which the bow hair is secured by a wedge."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.mdw.ac.at/iwk/?PageId=197",
+          "quote": "They come from six countries: Canada, Argentina, China, Mongolia, Russia and Japan."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.mdw.ac.at/iwk/?PageId=197",
+          "quote": "Bow hairs are taken from slaughtered horses living in a colder climate."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia003.html",
+          "quote": "The most popular horsehair, which is said to produce a good tone, is white horsehair from Mongolia."
+        }
+      ]
+    },
+    {
+      "id": "frog",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia020.html",
+          "quote": "There is a sliding part used to adjust the tension of the hair ribbon."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "The block of wood, ivory, ebony designed to hold the bow hair to the stick."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "The screw is attached to the frog, which pulls the hair tight."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "At the other end is a movable frog"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.metmuseum.org/art/collection/search/503221",
+          "quote": "ebony frog with prismatic guide"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://si.edu/object/vuillaume-violin-bow:nmah_1028332",
+          "quote": "a plain ebony frog with pearl slide"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://emuseum.nmmusd.org/objects/details/6536",
+          "quote": "Frog: ebony; silver ferrule and heel-plate; no lining; mother-of-pearl slide (later)"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015",
+          "quote": "The screw-mechanism, squared, ebony frog has a nickel ferrule with a wooden ferrule wedge"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/trivia/trivia020.html",
+          "quote": "This part is generally referred to as the \"bow frog.\""
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "covers the bow stick in the frog area"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "runs on a screw that can be turned at the lower end of the stick"
+        },
+        {
+          "field": "funFact",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "A round decorative inset found at the sides of the frog, often made of mother of pearl."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.metmuseum.org/art/collection/search/503221",
+          "quote": "mother-of-pearl eyes (one missing) in gold ring"
+        }
+      ]
+    },
+    {
+      "id": "screw",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "its tension is adjusted by the screw"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "Knob at the back of the stick, attached to the adjuster to enable tightening of the bow hair."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/violin/maintenance/maintenance004.html",
+          "quote": "tighten the hairs before playing, and loosen them right after playing."
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.metmuseum.org/art/collection/search/503221",
+          "quote": "octagonal ebony button with two gold bands"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://si.edu/object/vuillaume-violin-bow:nmah_1028332",
+          "quote": "an ebony button with two silver rings"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://emuseum.nmmusd.org/objects/details/6536",
+          "quote": "Adjuster: ebony; two nickel-silver bands; mother-of-pearl eye"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015",
+          "quote": "The ebony button has metal rings"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "runs on a screw that can be turned at the lower end of the stick"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "Knob at the back of the stick, attached to the adjuster to enable tightening of the bow hair."
+        }
+      ]
+    },
+    {
+      "id": "tip",
+      "evidence": [
+        {
+          "field": "whatItDoes",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "A cavity cut into the stick wood found on the head and frog, into which the bow hair is secured by a wedge."
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "a ribbon of horsehairs can be stretched between its ends"
+        },
+        {
+          "field": "whatItDoes",
+          "url": "https://www.metmuseum.org/art/collection/search/503221",
+          "quote": "French tip with trapezoidal mortise"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "the front of which is faced with ivory or silver to protect it from damage"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "A cavity cut into the stick wood found on the head and frog"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015",
+          "quote": "ends in a modern head with an ivory headface"
+        },
+        {
+          "field": "madeOf",
+          "url": "https://emuseum.nmmusd.org/objects/details/6536",
+          "quote": "Tip plate: ivory with ebony lining"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "with a hatchet-shaped head formed at the thinner end"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "At the other end is a movable frog"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://collections.ed.ac.uk/mimed/record/16015",
+          "quote": "ends in a modern head with an ivory headface"
+        },
+        {
+          "field": "whereItSits",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "The part of the stick, at the back of the bow, which the player holds when playing."
+        },
+        {
+          "field": "funFact",
+          "url": "https://www.britannica.com/art/stringed-instrument/The-violin-family",
+          "quote": "was perfected late in the 18th century by François Tourte of Paris"
+        },
+        {
+          "field": "funFact",
+          "url": "https://bcu.ac.uk/conservatoire/research/hic/how-to-use-the-collection/terminology-glossary/string-bows-terminology",
+          "quote": "From the 1770s, François Xavier Tourte and his younger brother Léonard Tourte began developing"
+        },
+        {
+          "field": "funFact",
+          "url": "https://emuseum.nmmusd.org/objects/details/6536",
+          "quote": "who is credited with the development of the modern violin bow."
+        }
+      ]
+    }
+  ]
+}

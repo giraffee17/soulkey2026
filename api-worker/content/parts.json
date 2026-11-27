@@ -44,24 +44,7 @@
       "name": {
         "en": "Top",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "back",
@@ -69,24 +52,7 @@
       "name": {
         "en": "Back",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "ribs",
@@ -94,24 +60,7 @@
       "name": {
         "en": "Ribs",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "f-holes",
@@ -119,24 +68,7 @@
       "name": {
         "en": "F-holes",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "purfling",
@@ -144,24 +76,7 @@
       "name": {
         "en": "Purfling",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "end-button",
@@ -169,24 +84,7 @@
       "name": {
         "en": "End button",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "neck",
@@ -194,24 +92,7 @@
       "name": {
         "en": "Neck",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "scroll",
@@ -219,24 +100,7 @@
       "name": {
         "en": "Scroll",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "pegbox",
@@ -244,24 +108,7 @@
       "name": {
         "en": "Pegbox",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "pegs",
@@ -269,24 +116,7 @@
       "name": {
         "en": "Pegs",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "nut",
@@ -294,24 +124,7 @@
       "name": {
         "en": "Nut",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "fingerboard",
@@ -319,24 +132,7 @@
       "name": {
         "en": "Fingerboard",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "bridge",
@@ -344,24 +140,7 @@
       "name": {
         "en": "Bridge",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "tailpiece",
@@ -369,24 +148,7 @@
       "name": {
         "en": "Tailpiece",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "fine-tuners",
@@ -394,24 +156,7 @@
       "name": {
         "en": "Fine tuners",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "chinrest",
@@ -419,24 +164,7 @@
       "name": {
         "en": "Chinrest",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "saddle",
@@ -444,24 +172,7 @@
       "name": {
         "en": "Saddle",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "string-g",
@@ -469,24 +180,7 @@
       "name": {
         "en": "G string",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "string-d",
@@ -494,24 +188,7 @@
       "name": {
         "en": "D string",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "string-a",
@@ -519,24 +196,7 @@
       "name": {
         "en": "A string",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "string-e",
@@ -544,24 +204,7 @@
       "name": {
         "en": "E string",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "soundpost",
@@ -569,24 +212,7 @@
       "name": {
         "en": "Soundpost",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "bass-bar",
@@ -594,24 +220,7 @@
       "name": {
         "en": "Bass bar",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "stick",
@@ -619,24 +228,7 @@
       "name": {
         "en": "Stick",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "hair",
@@ -644,24 +236,7 @@
       "name": {
         "en": "Hair",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "frog",
@@ -669,24 +244,7 @@
       "name": {
         "en": "Frog",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "screw",
@@ -694,24 +252,7 @@
       "name": {
         "en": "Screw",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     },
     {
       "id": "tip",
@@ -719,24 +260,7 @@
       "name": {
         "en": "Tip",
         "mn": ""
-      },
-      "whatItDoes": {
-        "en": "",
-        "mn": ""
-      },
-      "madeOf": {
-        "en": "",
-        "mn": ""
-      },
-      "whereItSits": {
-        "en": "",
-        "mn": ""
-      },
-      "funFact": {
-        "en": "",
-        "mn": ""
-      },
-      "sources": []
+      }
     }
   ]
 }
