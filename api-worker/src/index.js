@@ -3,8 +3,10 @@
 // and everything the site shows about the violin comes from here as JSON.
 //   GET /api/parts      the catalog: groups and parts with their names (content/parts.json)
 //   GET /api/parts/:id  one part's info texts and sources (D1)
+//   GET /api/strings    the four open strings for Play mode: note and pitch (content/open-strings.json)
 import { allowedOrigin, preflight, withCors } from "./cors.js";
 import { getCatalog, getPart } from "./parts.js";
+import { getOpenStrings } from "./open-strings.js";
 
 const json = (data, status = 200) => Response.json(data, { status });
 
@@ -13,6 +15,7 @@ const routes = [
   { method: "GET", pattern: /^\/api\/health$/, handler: () => json({ ok: true, service: "soulkey-api" }) },
   { method: "GET", pattern: /^\/api\/parts$/, handler: () => getCatalog() },
   { method: "GET", pattern: /^\/api\/parts\/(?<id>[a-z-]+)$/, handler: (request, env, params) => getPart(params.id, env) },
+  { method: "GET", pattern: /^\/api\/strings$/, handler: () => getOpenStrings() },
 ];
 
 function match(method, pathname) {

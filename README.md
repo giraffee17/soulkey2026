@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-Then open http://127.0.0.1:8788. The API runs at http://127.0.0.1:8787 (try `/api/health` and `/api/parts`).
+Then open http://127.0.0.1:8788. The API runs at http://127.0.0.1:8787 (try `/api/health`, `/api/parts` and `/api/strings`).
 
 `npm install` also copies Three.js into `frontend-pages/public/vendor/three/` (the import map loads it from there, so there is no bundler).
 
@@ -47,8 +47,10 @@ npm test
 | `frontend-pages/public/js/components/` | `sk-*` Web Components |
 | `frontend-pages/public/js/framework/` | Signals, store, hash router |
 | `frontend-pages/public/js/scene/` | Three.js scene and the stand-in violin |
-| `frontend-pages/public/js/data/` | Interface text (EN and MN), the catalog loader and the part texts loader |
+| `frontend-pages/public/js/data/` | Interface text (EN and MN), the catalog, part texts and open strings loaders |
+| `frontend-pages/public/js/audio/` | Play mode sound: pluck and bow voices (synthesized until recorded sounds arrive from R2) |
 | `api-worker/content/parts.json` | The parts catalog: ids, groups and names (EN and MN). Served as JSON at `/api/parts` |
+| `api-worker/content/open-strings.json` | The four open strings for Play mode: note, pitch in Hz and sources. Served at `/api/strings` |
 | `api-worker/seed/` | Part texts (EN and MN, with sources), loaded into D1 and served at `/api/parts/:id` |
 | `api-worker/` | The Worker API: D1 part texts now; R2, KV and Durable Object bindings arrive in later weeks |
 | `scripts/` | Dev launcher, Three.js vendoring, local database setup and seeding, model converter, structure checks |

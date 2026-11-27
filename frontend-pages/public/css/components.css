@@ -97,6 +97,12 @@
 .stage__hint {
   position: absolute;
   inset: auto 0 var(--space-6) 0;
+  width: fit-content;
+  max-width: calc(100% - 2 * var(--space-4));
+  margin-inline: auto;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius);
+  background: var(--stage-hint-backdrop);
   text-align: center;
   color: var(--text-faint);
   font-size: var(--size-small);
@@ -107,6 +113,28 @@
   .stage__hint {
     bottom: calc(var(--sheet-peek) + var(--space-4));
   }
+}
+
+/* Play: the note name of the string that sounds, fading in near the top of the stage. */
+.stage__note {
+  position: absolute;
+  inset: var(--space-6) 0 auto 0;
+  text-align: center;
+  font-family: var(--font-title);
+  font-size: var(--size-note);
+  line-height: 1;
+  color: var(--accent);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(calc(-1 * var(--space-2)));
+  transition:
+    opacity var(--duration) var(--ease-out),
+    transform var(--duration) var(--ease-out);
+}
+
+.stage__note[data-shown="true"] {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Bottom sheet handle, only shown when the panel is a sheet */

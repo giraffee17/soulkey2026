@@ -12,6 +12,8 @@ import { keepPanelTopInView } from "./panel-scroll.js";
 import { t } from "./data/strings.js";
 import { fetchCatalog } from "./data/catalog.js";
 import { apiBase } from "./data/api.js";
+import { fetchOpenStrings } from "./data/open-strings.js";
+import { createStringPlayer } from "./audio/string-player.js";
 import { createBottomSheet, SHEET_QUERY } from "./bottom-sheet.js";
 
 const stage = document.querySelector("sk-stage");
@@ -33,7 +35,22 @@ const sheet = createBottomSheet({
 document.addEventListener("sk-part-pick", (event) => store.selectPart(event.detail.id));
 document.addEventListener("sk-mode-change", (event) => store.setMode(event.detail.mode));
 document.addEventListener("sk-lang-change", (event) => store.setLang(event.detail.lang));
-document.addEventListener("sk-catalog-retry", () => loadCatalog());
+document.addEventListener("sk-catalog-retry", () => {
+  loadCatalog();
+  if (!store.openStrings()) loadOpenStrings();
+});
+
+// Play: the stage says which string sounds; the player makes the sound at that string's pitch.
+const player = createStringPlayer();
+const frequencyOf = (id) => store.openStrings()?.find((string) => string.partId === id)?.frequencyHz;
+document.addEventListener("sk-pluck", (event) => {
+  const frequency = frequencyOf(event.detail.id);
+  if (frequency) player.pluck(frequency);
+});
+document.addEventListener("sk-bow", (event) => {
+  const frequency = frequencyOf(event.detail.id);
+  if (frequency) player.bow(event.detail.id, frequency, event.detail.level);
+});
 
 // The parts catalog comes from the API Worker. A newer request makes an older one stale (Week 6).
 let catalogRequest = null;
@@ -49,6 +66,22 @@ async function loadCatalog() {
     if (request.signal.aborted) return;
     console.warn("Parts catalog failed to load.", error);
     store.setCatalogStatus("error");
+  }
+}
+
+// The open strings (notes and pitches) come from the API Worker too. Play waits for them.
+let stringsRequest = null;
+async function loadOpenStrings() {
+  stringsRequest?.abort();
+  const request = new AbortController();
+  stringsRequest = request;
+  try {
+    const strings = await fetchOpenStrings(apiBase(), { signal: request.signal });
+    if (stringsRequest === request) store.setOpenStrings(strings);
+  } catch (error) {
+    if (request.signal.aborted) return;
+    console.warn("Open strings failed to load; Play stays off.", error);
+    store.setOpenStrings(null);
   }
 }
 
@@ -78,7 +111,15 @@ effect(() => {
 });
 
 effect(() => {
-  modeTabs.setAttribute("mode", store.mode());
+  stage.openStrings = store.openStrings() ?? [];
+  modeTabs.setAttribute("available", store.availableModes().join(" "));
+});
+
+effect(() => {
+  const mode = store.mode();
+  modeTabs.setAttribute("mode", mode);
+  stage.setAttribute("mode", mode);
+  if (mode !== "play") player.stopAll();
 });
 
 effect(() => {
@@ -93,3 +134,4 @@ keepPanelTopInView({ box: document.querySelector(".layout__panel"), selected: st
 
 startRouter(store);
 loadCatalog();
+loadOpenStrings();

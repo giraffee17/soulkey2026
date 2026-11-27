@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "strings": [
+    { "partId": "string-g", "note": "G", "pitch": "G3", "frequencyHz": 196.0 },
+    { "partId": "string-d", "note": "D", "pitch": "D4", "frequencyHz": 293.66 },
+    { "partId": "string-a", "note": "A", "pitch": "A4", "frequencyHz": 440.0 },
+    { "partId": "string-e", "note": "E", "pitch": "E5", "frequencyHz": 659.26 }
+  ],
+  "sources": [
+    {
+      "title": "Violin (HyperPhysics, Georgia State University)",
+      "url": "https://hyperphysics.gsu.edu/hbase/Music/violin.html",
+      "supports": "Tuned a fifth apart at G3 (196 Hz), D4 (293.7 Hz), A4, E5 (659.3 Hz), equal temperament with the A4 = 440 Hz standard"
+    },
+    {
+      "title": "Violin (Vienna Symphonic Library)",
+      "url": "https://www.vsl.co.at/academy/strings/violin",
+      "supports": "4 strings, tuned to intervals of a fifth: G3, D4, A4, E5"
+    },
+    {
+      "title": "Frequencies of Musical Notes (STX Wiki, Austrian Academy of Sciences)",
+      "url": "https://projects.ari.oeaw.ac.at/stx/docs/wiki/index.php/User_Guide/Appendix/Frequencies_of_Musical_Notes",
+      "supports": "Equally tempered scale, A = 440 Hz: G3 196.00, D4 293.66, A4 440.00, E5 659.26"
+    }
+  ]
+}
