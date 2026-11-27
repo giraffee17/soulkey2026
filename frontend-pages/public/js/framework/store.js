@@ -22,6 +22,7 @@ const [selectedPart, setSelectedSignal] = createSignal(null);
 const [lang, setLangSignal] = createSignal(savedLang());
 const [catalog, setCatalogSignal] = createSignal(null);
 const [catalogStatus, setCatalogStatusSignal] = createSignal("loading");
+const [openStrings, setOpenStringsSignal] = createSignal(null);
 
 export const store = {
   mode,
@@ -29,6 +30,7 @@ export const store = {
   lang,
   catalog,
   catalogStatus,
+  openStrings,
 
   setMode(next) {
     if (MODES.includes(next)) setModeSignal(next);
@@ -61,5 +63,16 @@ export const store = {
     setCatalogSignal(next);
     setCatalogStatusSignal("ready");
     store.selectPart(selectedPart());
+  },
+
+  // The open strings Play mode can sound (from the API). Until they arrive, Play waits.
+  setOpenStrings(next) {
+    setOpenStringsSignal(Array.isArray(next) && next.length ? next : null);
+    if (!openStrings() && mode() === "play") setModeSignal("explore");
+  },
+
+  // Modes that work right now: Play needs the open strings. Assemble arrives in week 3.
+  availableModes() {
+    return openStrings() ? ["explore", "play"] : ["explore"];
   },
 };

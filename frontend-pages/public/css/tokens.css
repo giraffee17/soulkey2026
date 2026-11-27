@@ -29,6 +29,7 @@
   --accent: var(--color-gold);
   --accent-strong: var(--color-velvet);
   --hairline: #3a2c1e;
+  --stage-hint-backdrop: color-mix(in srgb, var(--color-stage) 72%, transparent);
   --focus-ring: var(--color-gold);
 
   /* Type */
@@ -38,6 +39,7 @@
   --size-body: 1rem;
   --size-title: 2.75rem;
   --size-title-plain: 1.5rem;
+  --size-note: 4.5rem;
 
   /* Space and shape */
   --space-1: 0.25rem;
