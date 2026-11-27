@@ -4,7 +4,9 @@ import { stat } from "node:fs/promises";
 import * as THREE from "three";
 import { NodeIO } from "@gltf-transform/core";
 import { KHRMaterialsClearcoat } from "@gltf-transform/extensions";
-import { PART_IDS } from "../frontend-pages/public/js/data/parts.js";
+import catalog from "../api-worker/content/parts.json" with { type: "json" };
+
+const PART_IDS = catalog.parts.map((part) => part.id);
 import { PART_HOSTS, prepareModel } from "../frontend-pages/public/js/scene/violin-model.js";
 
 const MODEL = new URL("../frontend-pages/public/models/violin.glb", import.meta.url);
@@ -24,14 +26,17 @@ test("the model is small enough for phones (under 3 MB)", async () => {
   assert.ok(size < 3 * 1024 * 1024, `violin.glb is ${(size / 1024 / 1024).toFixed(1)} MB`);
 });
 
-test("prepareModel keeps only part nodes and gives each mesh its own material", () => {
+test("prepareModel keeps nodes with meshes and gives each mesh its own material", () => {
   const shared = new THREE.MeshStandardMaterial();
   const scene = new THREE.Group();
-  ["bridge", "top", "camera-helper"].forEach((name) => {
+  ["bridge", "top"].forEach((name) => {
     const node = new THREE.Mesh(new THREE.BoxGeometry(), shared);
     node.name = name;
     scene.add(node);
   });
+  const helper = new THREE.Group();
+  helper.name = "camera-helper";
+  scene.add(helper);
   const root = prepareModel(scene);
   assert.deepEqual(root.children.map((child) => child.userData.partId), ["bridge", "top"]);
   assert.notEqual(root.children[0].material, root.children[1].material);

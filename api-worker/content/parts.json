@@ -1,0 +1,742 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "body",
+      "name": {
+        "en": "Body",
+        "mn": ""
+      }
+    },
+    {
+      "id": "neck",
+      "name": {
+        "en": "Neck and scroll",
+        "mn": ""
+      }
+    },
+    {
+      "id": "fittings",
+      "name": {
+        "en": "Fittings",
+        "mn": ""
+      }
+    },
+    {
+      "id": "inside",
+      "name": {
+        "en": "Inside",
+        "mn": ""
+      }
+    },
+    {
+      "id": "bow",
+      "name": {
+        "en": "Bow",
+        "mn": ""
+      }
+    }
+  ],
+  "parts": [
+    {
+      "id": "top",
+      "group": "body",
+      "name": {
+        "en": "Top",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "back",
+      "group": "body",
+      "name": {
+        "en": "Back",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "ribs",
+      "group": "body",
+      "name": {
+        "en": "Ribs",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "f-holes",
+      "group": "body",
+      "name": {
+        "en": "F-holes",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "purfling",
+      "group": "body",
+      "name": {
+        "en": "Purfling",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "end-button",
+      "group": "body",
+      "name": {
+        "en": "End button",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "neck",
+      "group": "neck",
+      "name": {
+        "en": "Neck",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "scroll",
+      "group": "neck",
+      "name": {
+        "en": "Scroll",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "pegbox",
+      "group": "neck",
+      "name": {
+        "en": "Pegbox",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "pegs",
+      "group": "neck",
+      "name": {
+        "en": "Pegs",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "nut",
+      "group": "neck",
+      "name": {
+        "en": "Nut",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "fingerboard",
+      "group": "neck",
+      "name": {
+        "en": "Fingerboard",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "bridge",
+      "group": "fittings",
+      "name": {
+        "en": "Bridge",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "tailpiece",
+      "group": "fittings",
+      "name": {
+        "en": "Tailpiece",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "fine-tuners",
+      "group": "fittings",
+      "name": {
+        "en": "Fine tuners",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "chinrest",
+      "group": "fittings",
+      "name": {
+        "en": "Chinrest",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "saddle",
+      "group": "fittings",
+      "name": {
+        "en": "Saddle",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "string-g",
+      "group": "fittings",
+      "name": {
+        "en": "G string",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "string-d",
+      "group": "fittings",
+      "name": {
+        "en": "D string",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "string-a",
+      "group": "fittings",
+      "name": {
+        "en": "A string",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "string-e",
+      "group": "fittings",
+      "name": {
+        "en": "E string",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "soundpost",
+      "group": "inside",
+      "name": {
+        "en": "Soundpost",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "bass-bar",
+      "group": "inside",
+      "name": {
+        "en": "Bass bar",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "stick",
+      "group": "bow",
+      "name": {
+        "en": "Stick",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "hair",
+      "group": "bow",
+      "name": {
+        "en": "Hair",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "frog",
+      "group": "bow",
+      "name": {
+        "en": "Frog",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "screw",
+      "group": "bow",
+      "name": {
+        "en": "Screw",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    },
+    {
+      "id": "tip",
+      "group": "bow",
+      "name": {
+        "en": "Tip",
+        "mn": ""
+      },
+      "whatItDoes": {
+        "en": "",
+        "mn": ""
+      },
+      "madeOf": {
+        "en": "",
+        "mn": ""
+      },
+      "whereItSits": {
+        "en": "",
+        "mn": ""
+      },
+      "funFact": {
+        "en": "",
+        "mn": ""
+      },
+      "sources": []
+    }
+  ]
+}

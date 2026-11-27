@@ -19,9 +19,10 @@ import { mkdir, readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import jpeg from "jpeg-js";
-import { PART_IDS } from "../../frontend-pages/public/js/data/parts.js";
+import catalog from "../../api-worker/content/parts.json" with { type: "json" };
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
+const PART_IDS = catalog.parts.map((part) => part.id);
 const sourceDir = process.argv[2];
 if (!sourceDir) {
   console.error("Usage: node scripts/model/convert-free-violin.mjs <folder with VIOLIN_L.3DS>");
