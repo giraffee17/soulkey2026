@@ -3,7 +3,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
-import { PARTS, GROUPS } from "../frontend-pages/public/js/data/parts.js";
+import catalog from "../api-worker/content/parts.json" with { type: "json" };
 import { STRINGS } from "../frontend-pages/public/js/data/strings.js";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -19,7 +19,9 @@ async function filesIn(dir, extension) {
     .map((entry) => join(entry.parentPath ?? entry.path, entry.name));
 }
 
-// Rule 1: the part ids are exactly the ones in the plan.
+// Rule 1: the server's catalog has exactly the part ids in the plan, with names in both languages.
+// (The info texts live in api-worker/seed/part-texts.json; tests/part-content.test.js checks them.)
+const { parts: PARTS, groups: GROUPS } = catalog;
 const PLAN_IDS = [
   "top", "back", "ribs", "f-holes", "purfling", "end-button",
   "neck", "scroll", "pegbox", "pegs", "nut", "fingerboard",
@@ -27,12 +29,21 @@ const PLAN_IDS = [
   "soundpost", "bass-bar",
   "stick", "hair", "frog", "screw", "tip",
 ];
-const partsFile = join(jsDir, "data", "parts.js");
+const partsFile = join(root, "api-worker", "content", "parts.json");
 const ids = PARTS.map((part) => part.id);
 if (JSON.stringify(ids) !== JSON.stringify(PLAN_IDS)) fail(partsFile, "part ids differ from PLAN.md");
 if (new Set(ids).size !== ids.length) fail(partsFile, "duplicate part id");
 const groupIds = GROUPS.map((group) => group.id);
 PARTS.filter((part) => !groupIds.includes(part.group)).forEach((part) => fail(partsFile, `unknown group for ${part.id}`));
+for (const item of [...GROUPS, ...PARTS]) {
+  if (!item.name?.en || typeof item.name.mn !== "string") fail(partsFile, `${item.id}.name needs "en" and "mn"`);
+}
+
+// Rule 1b: part data lives on the server only, never hard-coded in the frontend.
+for (const file of await filesIn(jsDir, ".js")) {
+  const code = await readFile(file, "utf8");
+  if (/"soundpost"|'soundpost'|"bass-bar"/.test(code) && !file.includes("violin-standin.js")) fail(file, "part data belongs in api-worker/content/parts.json");
+}
 
 // Rule 2: every interface string exists in both languages.
 const stringsFile = join(jsDir, "data", "strings.js");

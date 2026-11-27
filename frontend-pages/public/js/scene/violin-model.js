@@ -1,0 +1,38 @@
+// Loads the violin model (GLB). The contract with any model, free or bought:
+// each top-level node is named with a part id from the API's parts catalog.
+// Parts drawn on another part's texture (f-holes and purfling on the top) point at that host part.
+import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+
+export const MODEL_URL = new URL("../../models/violin.glb", import.meta.url).href;
+
+// Part id -> part whose mesh shows it, for parts with no mesh of their own.
+export const PART_HOSTS = { "f-holes": "top", purfling: "top" };
+
+// Each mesh gets its own material copy, so a glow on one part never lights another.
+function ownMaterials(object) {
+  object.traverse((child) => {
+    if (!child.isMesh) return;
+    child.material = child.material.clone();
+  });
+}
+
+export function prepareModel(scene) {
+  const root = new THREE.Group();
+  root.name = "violin-root";
+  // Every top-level node that holds a mesh is a part; helpers such as empty groups are skipped.
+  [...scene.children].forEach((node) => {
+    let hasMesh = false;
+    node.traverse((child) => { hasMesh ||= child.isMesh; });
+    if (!node.name || !hasMesh) return;
+    node.userData.partId = node.name;
+    ownMaterials(node);
+    root.add(node);
+  });
+  return root;
+}
+
+export async function loadViolinModel(url = MODEL_URL) {
+  const gltf = await new GLTFLoader().loadAsync(url);
+  return prepareModel(gltf.scene);
+}

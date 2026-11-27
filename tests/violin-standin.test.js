@@ -2,7 +2,9 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import * as THREE from "three";
 import { buildStandinViolin, partIdOf } from "../frontend-pages/public/js/scene/violin-standin.js";
-import { PART_IDS } from "../frontend-pages/public/js/data/parts.js";
+import catalog from "../api-worker/content/parts.json" with { type: "json" };
+
+const PART_IDS = catalog.parts.map((part) => part.id);
 
 const palette = { wood: "#7a3e1b", maple: "#a8662e", ebony: "#15100c", metal: "#b9b2a3", string: "#d8c9a3", hair: "#efe6d2", ivory: "#e9dfc8", highlight: "#c9a54c" };
 

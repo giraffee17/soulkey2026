@@ -25,6 +25,10 @@
     "deploy:api": "npm run deploy --workspace @soulkey/api"
   },
   "devDependencies": {
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "jpeg-js": "0.4.4",
     "three": "0.187.0",
     "wrangler": "4.165.0"
   }

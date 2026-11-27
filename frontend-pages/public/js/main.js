@@ -10,6 +10,8 @@ import { store } from "./framework/store.js";
 import { startRouter } from "./framework/router.js";
 import { keepPanelTopInView } from "./panel-scroll.js";
 import { t } from "./data/strings.js";
+import { fetchCatalog } from "./data/catalog.js";
+import { apiBase } from "./data/api.js";
 import { createBottomSheet, SHEET_QUERY } from "./bottom-sheet.js";
 
 const stage = document.querySelector("sk-stage");
@@ -31,6 +33,24 @@ const sheet = createBottomSheet({
 document.addEventListener("sk-part-pick", (event) => store.selectPart(event.detail.id));
 document.addEventListener("sk-mode-change", (event) => store.setMode(event.detail.mode));
 document.addEventListener("sk-lang-change", (event) => store.setLang(event.detail.lang));
+document.addEventListener("sk-catalog-retry", () => loadCatalog());
+
+// The parts catalog comes from the API Worker. A newer request makes an older one stale (Week 6).
+let catalogRequest = null;
+async function loadCatalog() {
+  catalogRequest?.abort();
+  const request = new AbortController();
+  catalogRequest = request;
+  store.setCatalogStatus("loading");
+  try {
+    const catalog = await fetchCatalog(apiBase(), { signal: request.signal });
+    if (catalogRequest === request) store.setCatalog(catalog);
+  } catch (error) {
+    if (request.signal.aborted) return;
+    console.warn("Parts catalog failed to load.", error);
+    store.setCatalogStatus("error");
+  }
+}
 
 // Store into component attributes. Each effect re-runs only when its own signal changes.
 const setAttr = (element, name, value) => {
@@ -39,8 +59,19 @@ const setAttr = (element, name, value) => {
 };
 
 effect(() => {
+  const catalog = store.catalog();
+  panel.catalog = catalog;
+  partsList.catalog = catalog;
+});
+
+effect(() => {
+  panel.setAttribute("status", store.catalogStatus());
+});
+
+effect(() => {
   const id = store.selectedPart();
   setAttr(stage, "selected", id);
+  setAttr(stage, "selected-group", store.catalog()?.findPart(id)?.group);
   setAttr(panel, "part", id);
   setAttr(partsList, "selected", id);
   if (id) sheet.setOpen(true);
@@ -61,3 +92,4 @@ effect(() => {
 keepPanelTopInView({ box: document.querySelector(".layout__panel"), selected: store.selectedPart });
 
 startRouter(store);
+loadCatalog();

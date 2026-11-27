@@ -1,9 +1,11 @@
-// <sk-panel part="bridge" lang="en">
-// In:  part (part id or empty), lang (en or mn)
+// <sk-panel part="bridge" lang="en" status="ready">
+// In:  part (part id or empty), lang (en or mn), status (the parts catalog: loading, ready or error),
+//      and the .catalog property (part names and groups from GET /api/parts)
+// Out: "sk-catalog-retry" event when the reader asks to load the catalog again
 // Shows the part name and its info table. The texts come from the API (D1), one request
-// per part, cached. One status value says what the panel is doing (Week 6):
+// per part, cached. One status value says what the texts are doing (Week 6):
 // idle (no part), loading, ready or error. A slow answer for an old part is ignored.
-import { findPart, findGroup, localName } from "../data/parts.js";
+import { localName } from "../data/catalog.js";
 import { t } from "../data/strings.js";
 import { apiBase } from "../data/api.js";
 import { createPartTexts, pickText } from "../data/part-texts.js";
@@ -29,19 +31,34 @@ function hostOf(url) {
 }
 
 class SkPanel extends HTMLElement {
-  static observedAttributes = ["part", "lang"];
+  static observedAttributes = ["part", "lang", "status"];
 
-  status = "idle";
+  #catalog = null;
+  textStatus = "idle";
   data = null;
   request = null;
+
+  set catalog(value) {
+    this.#catalog = value;
+    if (this.isConnected) this.loadPart();
+  }
+
+  get catalog() {
+    return this.#catalog;
+  }
 
   connectedCallback() {
     this.classList.add("part-info");
     this.setAttribute("aria-live", "polite");
+    this.life = new AbortController();
+    this.addEventListener("click", (event) => {
+      if (event.target.closest("[data-retry]")) this.dispatchEvent(new CustomEvent("sk-catalog-retry", { bubbles: true }));
+    }, { signal: this.life.signal });
     this.loadPart();
   }
 
   disconnectedCallback() {
+    this.life?.abort();
     this.request?.abort();
     this.request = null;
   }
@@ -52,56 +69,71 @@ class SkPanel extends HTMLElement {
     else this.render();
   }
 
+  currentPart() {
+    return this.#catalog?.findPart(this.getAttribute("part") || "") ?? null;
+  }
+
   loadPart() {
     this.request?.abort();
     this.request = null;
     this.data = null;
-    const id = this.getAttribute("part") || "";
-    if (!findPart(id)) {
-      this.status = "idle";
+    const part = this.currentPart();
+    if (!part) {
+      this.textStatus = "idle";
       this.render();
       return;
     }
 
+    const { id } = part;
     const request = new AbortController();
     this.request = request;
-    this.status = "loading";
+    this.textStatus = "loading";
     this.render();
 
     partTexts.load(id, { signal: request.signal }).then(
       (data) => {
         if (request.signal.aborted || this.getAttribute("part") !== id) return; // stale answer
-        this.status = "ready";
+        this.textStatus = "ready";
         this.data = data;
         this.render();
       },
       (error) => {
         if (request.signal.aborted || this.getAttribute("part") !== id) return;
         console.warn(error);
-        this.status = "error";
+        this.textStatus = "error";
         this.render();
       },
     );
   }
 
+  message(lang, titleKey, bodyKey, retry = false) {
+    const title = element("h2", "part-info__title", t(lang, titleKey));
+    title.setAttribute("lang", lang);
+    const nodes = [title, element("p", "part-info__empty", t(lang, bodyKey))];
+    if (retry) {
+      const button = element("button", "part-info__retry", t(lang, "retry"));
+      button.type = "button";
+      button.dataset.retry = "true";
+      nodes.push(button);
+    }
+    this.replaceChildren(...nodes);
+  }
+
   render() {
     const lang = this.getAttribute("lang") || "en";
-    const part = findPart(this.getAttribute("part") || "");
+    const catalogStatus = this.getAttribute("status") || "loading";
+    if (catalogStatus === "loading") return this.message(lang, "catalogLoadingTitle", "catalogLoading");
+    if (catalogStatus === "error") return this.message(lang, "catalogErrorTitle", "catalogError", true);
 
-    if (!part) {
-      const title = element("h2", "part-info__title", t(lang, "emptyTitle"));
-      title.setAttribute("lang", lang);
-      this.replaceChildren(title, element("p", "part-info__empty", t(lang, "emptyBody")));
-      return;
-    }
+    const part = this.currentPart();
+    if (!part) return this.message(lang, "emptyTitle", "emptyBody");
 
     // The script title font is for English only; Mongolian titles use Arial (PLAN.md, Fonts).
-    const titleLang = part.name[lang] ? lang : "en";
     const title = element("h2", "part-info__title", localName(part, lang));
-    title.setAttribute("lang", titleLang);
-    const group = element("p", "part-info__group", localName(findGroup(part.group), lang));
+    title.setAttribute("lang", part.name[lang] ? lang : "en");
+    const group = element("p", "part-info__group", localName(this.#catalog.findGroup(part.group), lang));
 
-    if (this.status === "error") {
+    if (this.textStatus === "error") {
       this.replaceChildren(title, group, element("p", "part-info__status", t(lang, "loadError")));
       return;
     }
@@ -110,7 +142,7 @@ class SkPanel extends HTMLElement {
   }
 
   table(lang) {
-    const ready = this.status === "ready";
+    const ready = this.textStatus === "ready";
     const texts = this.data?.texts;
     const table = element("dl", "info-table");
     const rows = [];

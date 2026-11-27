@@ -1,6 +1,12 @@
+// GET /api/parts: the catalog (groups and parts with names), from content/parts.json.
 // GET /api/parts/:id: one part's info table texts (EN and MN) and its sources, read from D1.
 // A field that is NULL in the database comes back as null; the site decides what to show.
-import { PART_IDS } from "./part-ids.js";
+import { CATALOG, PART_IDS } from "./part-ids.js";
+
+// Names and groups change only with a deploy, so browsers may reuse them for a while.
+export function getCatalog() {
+  return Response.json(CATALOG, { headers: { "Cache-Control": "public, max-age=300" } });
+}
 
 const LANGS = ["en", "mn"];
 

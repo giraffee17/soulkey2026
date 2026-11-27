@@ -1,13 +1,17 @@
-// Soul Key API Worker. Owns every server decision and, from week 2, every Cloudflare
-// binding (D1, R2, KV, Durable Object). The Pages site only ever calls this Worker.
+// Soul Key API Worker. Owns every server decision and every Cloudflare binding
+// (D1 now; R2, KV and the Durable Object later). The Pages site only ever calls this Worker,
+// and everything the site shows about the violin comes from here as JSON.
+//   GET /api/parts      the catalog: groups and parts with their names (content/parts.json)
+//   GET /api/parts/:id  one part's info texts and sources (D1)
 import { allowedOrigin, preflight, withCors } from "./cors.js";
-import { getPart } from "./parts.js";
+import { getCatalog, getPart } from "./parts.js";
 
 const json = (data, status = 200) => Response.json(data, { status });
 
 // Each route is a method, a path pattern and a handler. Named groups become params.
 const routes = [
   { method: "GET", pattern: /^\/api\/health$/, handler: () => json({ ok: true, service: "soulkey-api" }) },
+  { method: "GET", pattern: /^\/api\/parts$/, handler: () => getCatalog() },
   { method: "GET", pattern: /^\/api\/parts\/(?<id>[a-z-]+)$/, handler: (request, env, params) => getPart(params.id, env) },
 ];
 

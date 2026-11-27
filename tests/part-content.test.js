@@ -3,7 +3,9 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { PART_IDS } from "../frontend-pages/public/js/data/parts.js";
+import catalog from "../api-worker/content/parts.json" with { type: "json" };
+
+const PART_IDS = catalog.parts.map((part) => part.id);
 import { seedSql } from "../scripts/seed-sql.mjs";
 
 const content = JSON.parse(await readFile(new URL("../api-worker/seed/part-texts.json", import.meta.url), "utf8"));

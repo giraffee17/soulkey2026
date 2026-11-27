@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import worker from "../api-worker/src/index.js";
 import { PART_IDS as API_IDS } from "../api-worker/src/part-ids.js";
-import { PART_IDS as SITE_IDS } from "../frontend-pages/public/js/data/parts.js";
+import catalog from "../api-worker/content/parts.json" with { type: "json" };
 
 // A tiny stand-in for the D1 binding: just enough of prepare/bind/batch for the route.
 function fakeDb({ texts = [], sources = [], fail = false } = {}) {
@@ -25,8 +25,8 @@ const origin = "http://127.0.0.1:8788";
 const call = (path, db) =>
   worker.fetch(new Request(`http://api${path}`, { headers: { Origin: origin } }), { ALLOWED_ORIGINS: origin, DB: db });
 
-test("the Worker's part ids match the site's part ids", () => {
-  assert.deepEqual(API_IDS, SITE_IDS);
+test("the Worker's part ids are the catalog's part ids", () => {
+  assert.deepEqual(API_IDS, catalog.parts.map((part) => part.id));
 });
 
 test("a part with texts returns both languages and its sources, with CORS", async () => {

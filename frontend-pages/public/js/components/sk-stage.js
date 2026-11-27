@@ -1,14 +1,13 @@
-// <sk-stage selected="bridge" lang="en">
-// In:  selected (part id or empty), lang (en or mn)
+// <sk-stage selected="bridge" selected-group="fittings" lang="en">
+// In:  selected (part id or empty), selected-group (that part's group), lang (en or mn)
 // Out: "sk-part-pick" event with detail.id (a part id, or null for empty space)
 // Light DOM, so page tokens style it (Week 4: light DOM when shared styling is the contract).
 import { StageScene } from "../scene/stage-scene.js";
 import { readPalette } from "../scene/palette.js";
-import { findPart } from "../data/parts.js";
 import { t } from "../data/strings.js";
 
 class SkStage extends HTMLElement {
-  static observedAttributes = ["selected", "lang"];
+  static observedAttributes = ["selected", "selected-group", "lang"];
 
   connectedCallback() {
     if (this.scene) return;
@@ -25,6 +24,10 @@ class SkStage extends HTMLElement {
       reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
       onPick: (id) => this.dispatchEvent(new CustomEvent("sk-part-pick", { bubbles: true, detail: { id } })),
       onHover: (over) => { this.dataset.hover = String(over); },
+      onStatus: (status) => {
+        this.dataset.status = status;
+        this.syncLang();
+      },
     });
 
     this.keys = new AbortController();
@@ -45,20 +48,19 @@ class SkStage extends HTMLElement {
 
   attributeChangedCallback(name) {
     if (!this.scene) return;
-    if (name === "selected") this.syncSelected();
+    if (name === "selected" || name === "selected-group") this.syncSelected();
     if (name === "lang") this.syncLang();
   }
 
   syncSelected() {
     const id = this.getAttribute("selected") || null;
-    const part = id ? findPart(id) : null;
-    this.scene.select(part ? id : null, { isInside: part?.group === "inside" });
+    this.scene.select(id, { isInside: this.getAttribute("selected-group") === "inside" });
   }
 
   syncLang() {
     const lang = this.getAttribute("lang") || "en";
     this.setAttribute("aria-label", t(lang, "stageLabel"));
-    this.hint.textContent = t(lang, "hint");
+    this.hint.textContent = t(lang, this.dataset.status === "loading" ? "modelLoading" : "hint");
   }
 }
 

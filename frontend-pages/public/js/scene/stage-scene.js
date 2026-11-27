@@ -1,9 +1,10 @@
-// The Three.js side of the stage: renderer, camera, lights, picking, selection glow
-// and camera flights. It knows nothing about the DOM around it except its canvas host.
+// The Three.js side of the stage: renderer, camera, lights, model loading, picking,
+// selection glow and camera flights. It knows nothing about the DOM around it except its canvas host.
 // Rendering happens only when something changes (Week 3: stop work you don't need).
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { buildStandinViolin, partIdOf } from "./violin-standin.js";
+import { loadViolinModel, PART_HOSTS } from "./violin-model.js";
 
 const OVERVIEW = { target: new THREE.Vector3(0, 0, 0), distance: 125 };
 const FLIGHT_MS = 700;
@@ -14,16 +15,19 @@ const XRAY_PARTS = ["top", "f-holes", "purfling"];
 const easeInOut = (t) => (t < 0.5 ? 4 * t * t * t : 1 - (-2 * t + 2) ** 3 / 2);
 
 export class StageScene {
-  constructor(host, { palette, reducedMotion, onPick, onHover }) {
+  constructor(host, { palette, reducedMotion, onPick, onHover, onStatus = () => {} }) {
     this.host = host;
     this.palette = palette;
     this.reducedMotion = reducedMotion;
     this.onPick = onPick;
     this.onHover = onHover;
+    this.onStatus = onStatus;
     this.life = new AbortController();
     this.frame = 0;
     this.flight = null;
     this.selected = null;
+    this.selectedInside = false;
+    this.disposed = false;
 
     this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -36,10 +40,9 @@ export class StageScene {
     this.camera.position.set(0, 0, OVERVIEW.distance);
 
     this.addLights();
-    this.violin = buildStandinViolin(palette);
+    this.violin = new THREE.Group();
     this.scene.add(this.violin);
     this.parts = new Map();
-    this.violin.children.forEach((child) => this.parts.set(child.userData.partId, child));
 
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableDamping = !reducedMotion;
@@ -53,6 +56,32 @@ export class StageScene {
     this.pointer = new THREE.Vector2();
     this.listen();
     this.resize();
+    this.loadModel();
+  }
+
+  // One status at a time (Week 6): loading, then ready, or fallback to the stand-in.
+  async loadModel() {
+    this.onStatus("loading");
+    try {
+      const model = await loadViolinModel();
+      if (this.disposed) return; // the stage was removed while loading: ignore the stale result
+      this.setViolin(model);
+      this.onStatus("ready");
+    } catch (error) {
+      if (this.disposed) return;
+      console.warn("Violin model failed to load, showing the stand-in.", error);
+      this.setViolin(buildStandinViolin(this.palette));
+      this.onStatus("fallback");
+    }
+  }
+
+  setViolin(model) {
+    this.scene.remove(this.violin);
+    disposeTree(this.violin);
+    this.violin = model;
+    this.scene.add(model);
+    this.parts = new Map(model.children.map((child) => [child.userData.partId, child]));
+    this.applySelection();
   }
 
   addLights() {
@@ -113,8 +142,21 @@ export class StageScene {
 
   // Selection: gold glow on the chosen part, see-through top for inside parts, camera flight.
   select(partId, { isInside = false } = {}) {
-    if (partId === this.selected) return;
+    if (partId === this.selected && isInside === this.selectedInside) return;
     this.selected = partId;
+    this.selectedInside = isInside;
+    this.applySelection();
+  }
+
+  // Parts painted on another part (like the f-holes on the top) light up their host.
+  shownPart(partId) {
+    if (!partId) return null;
+    return this.parts.has(partId) ? partId : PART_HOSTS[partId] ?? null;
+  }
+
+  applySelection() {
+    const partId = this.shownPart(this.selected);
+    const isInside = this.selectedInside;
     this.parts.forEach((object, id) => {
       object.traverse((child) => {
         if (!child.isMesh) return;
@@ -209,16 +251,25 @@ export class StageScene {
   }
 
   dispose() {
+    this.disposed = true;
     this.cancelFrame();
     this.life.abort();
     this.resizeObserver.disconnect();
     this.controls.dispose();
-    this.scene.traverse((object) => {
-      if (!object.isMesh) return;
-      object.geometry.dispose();
-      object.material.dispose();
-    });
+    disposeTree(this.scene);
     this.renderer.dispose();
     this.renderer.domElement.remove();
   }
+}
+
+function disposeTree(root) {
+  root.traverse((object) => {
+    if (!object.isMesh) return;
+    object.geometry.dispose();
+    const materials = Array.isArray(object.material) ? object.material : [object.material];
+    materials.forEach((material) => {
+      material.map?.dispose();
+      material.dispose();
+    });
+  });
 }
