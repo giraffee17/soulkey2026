@@ -4,6 +4,7 @@ export const STRINGS = {
   en: {
     stageLabel: "3D violin. Drag or use the arrow keys to rotate, scroll or use plus and minus to zoom, click a part to learn about it.",
     hint: "Drag to rotate, scroll to zoom, click a part",
+    loading: "Loading the violin…",
     emptyTitle: "Choose a part",
     emptyBody: "Click any part of the violin, or pick one from the list below.",
     whatItDoes: "What it does",
@@ -23,6 +24,7 @@ export const STRINGS = {
   mn: {
     stageLabel: "Гурван хэмжээст хийл. Эргүүлэхийн тулд чирэх эсвэл сум товч, томруулахын тулд гүйлгэх эсвэл нэмэх хасах товч ашиглана. Хэсэг дээр дарж танилцана уу.",
     hint: "Чирж эргүүлнэ, гүйлгэж томруулна, хэсэг дээр дарна",
+    loading: "Хийлийг ачаалж байна…",
     emptyTitle: "Хэсгээ сонгоно уу",
     emptyBody: "Хийлийн аль нэг хэсэг дээр дарах эсвэл доорх жагсаалтаас сонгоно уу.",
     whatItDoes: "Үүрэг",
