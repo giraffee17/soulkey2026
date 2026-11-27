@@ -12,6 +12,7 @@
     {
       "binding": "DB",
       "database_name": "soulkey-db",
+      "database_id": "2f8d95c2-6ff8-4931-b91e-ef600b6a2972",
       "migrations_dir": "migrations"
     }
   ]
